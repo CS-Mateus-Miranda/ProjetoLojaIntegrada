@@ -18,17 +18,17 @@ module.exports = function() {
 
     // I
     this.When(/^preencho o campo de e\-mail$/, function (callback) {
-        var imaiu = newsletter.stringaleatoria();
-        newsletter.preencheremail(imaiu).then(callback);
+        var imeiu = newsletter.stringaleatoria();
+        newsletter.preencheremail(imeiu).then(callback);
     });
 
-    // I, II, III and IV
+    // Todos
     this.When(/^clico no botão de cadastro$/, function (callback) {
         newsletter.clicarnobotaonewsletter().then(callback);
     });
 
     // I
-    this.Then(/^visualizo a mensagem de cadastro realizado$/, function (callback) {
+    this.Then(/^visualizo a mensagem de cadastro realizado com sucesso$/, function (callback) {
         browser.driver.sleep(2000);
         expect(element(by.css('.icon-3x')).isDisplayed()).to.eventually.be.true.and.notify(callback);
     });

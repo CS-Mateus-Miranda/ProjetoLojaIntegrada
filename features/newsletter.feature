@@ -7,7 +7,7 @@ Funcionalidade: Cadastro de Newsletter
   Cenário: Cadastrar Newsletter
     Quando preencho o campo de e-mail
     E clico no botão de cadastro
-    Então visualizo a mensagem de cadastro realizado
+    Então visualizo a mensagem de cadastro realizado com sucesso
 
   Cenário: Preencher campo com e-mail com e-mail ja cadastrado
     Quando preencho o campo de e-mail com um e-mail ja cadastrado
