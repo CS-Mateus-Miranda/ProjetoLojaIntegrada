@@ -1,0 +1,25 @@
+{
+  "name": "testes_loja_integrada",
+  "version": "0.0.1",
+  "description": "Testes da Loja Integrada usando Cucumber.js e Protractor",
+  "devDependencies": {
+    "chai": "^2.1.2",
+    "chai-as-promised": "^6.0.0",
+    "cucumber": "^1.3.0",
+    "cucumber-html-reporter": "^0.3.7 ",
+    "mocha": "^3.2.0",
+    "protractor": "^4.0.3",
+    "protractor-cucumber-framework": "0.6.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CS-Mateus-Miranda/ProjetoLojaIntegrada.git"
+  },
+  "author": "Mateus Miranda",
+  "license": "ISC",
+  "homepage": "https://github.com/CS-Mateus-Miranda/ProjetoLojaIntegrada.git",
+  "scripts": {
+    "test": "protractor",
+    "install": "node ./node_modules/protractor/bin/webdriver-manager update"
+  }
+}

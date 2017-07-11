@@ -1,0 +1,260 @@
+[
+  {
+    "elements": [
+      {
+        "id": "cadastro-de-newsletter;cadastrar-newsletter",
+        "keyword": "Scenario",
+        "line": 7,
+        "name": "Cadastrar Newsletter",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "name": "que eu esteja na home da Loja Integrada",
+            "result": {
+              "status": "passed",
+              "duration": 3248539202
+            },
+            "line": 5,
+            "match": {
+              "location": "/Users/mateusmiranda/Desktop/Projetos/ProjetoLojaIntegrada/features/step_definitions/newsletter.js:15"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "name": "preencho o campo de e-mail",
+            "result": {
+              "status": "passed",
+              "duration": 197482776
+            },
+            "line": 8,
+            "match": {
+              "location": "/Users/mateusmiranda/Desktop/Projetos/ProjetoLojaIntegrada/features/step_definitions/newsletter.js:20"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "name": "clico no botão de cadastro",
+            "result": {
+              "status": "passed",
+              "duration": 108036076
+            },
+            "line": 9,
+            "match": {
+              "location": "/Users/mateusmiranda/Desktop/Projetos/ProjetoLojaIntegrada/features/step_definitions/newsletter.js:26"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "name": "visualizo a mensagem de cadastro realizado",
+            "result": {
+              "status": "passed",
+              "duration": 2046033202
+            },
+            "line": 10,
+            "match": {
+              "location": "/Users/mateusmiranda/Desktop/Projetos/ProjetoLojaIntegrada/features/step_definitions/newsletter.js:31"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "cadastro-de-newsletter;preencher-campo-com-e-mail-com-e-mail-ja-cadastrado",
+        "keyword": "Scenario",
+        "line": 12,
+        "name": "Preencher campo com e-mail com e-mail ja cadastrado",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "name": "que eu esteja na home da Loja Integrada",
+            "result": {
+              "status": "passed",
+              "duration": 782155236
+            },
+            "line": 5,
+            "match": {
+              "location": "/Users/mateusmiranda/Desktop/Projetos/ProjetoLojaIntegrada/features/step_definitions/newsletter.js:15"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "name": "preencho o campo de e-mail com um e-mail ja cadastrado",
+            "result": {
+              "status": "passed",
+              "duration": 147322977
+            },
+            "line": 13,
+            "match": {
+              "location": "/Users/mateusmiranda/Desktop/Projetos/ProjetoLojaIntegrada/features/step_definitions/newsletter.js:37"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "name": "clico no botão de cadastro",
+            "result": {
+              "status": "passed",
+              "duration": 78473466
+            },
+            "line": 14,
+            "match": {
+              "location": "/Users/mateusmiranda/Desktop/Projetos/ProjetoLojaIntegrada/features/step_definitions/newsletter.js:26"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "name": "visualizo a mensagem de e-mail ja cadastrado",
+            "result": {
+              "status": "passed",
+              "duration": 2045859280
+            },
+            "line": 15,
+            "match": {
+              "location": "/Users/mateusmiranda/Desktop/Projetos/ProjetoLojaIntegrada/features/step_definitions/newsletter.js:42"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "cadastro-de-newsletter;preencher-e-mail-no-formato-inválido",
+        "keyword": "Scenario",
+        "line": 17,
+        "name": "Preencher e-mail no formato inválido",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "name": "que eu esteja na home da Loja Integrada",
+            "result": {
+              "status": "passed",
+              "duration": 653160488
+            },
+            "line": 5,
+            "match": {
+              "location": "/Users/mateusmiranda/Desktop/Projetos/ProjetoLojaIntegrada/features/step_definitions/newsletter.js:15"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "name": "preencho o campo de e-mail com formato inválido",
+            "result": {
+              "status": "passed",
+              "duration": 86455463
+            },
+            "line": 18,
+            "match": {
+              "location": "/Users/mateusmiranda/Desktop/Projetos/ProjetoLojaIntegrada/features/step_definitions/newsletter.js:48"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "name": "clico no botão de cadastro",
+            "result": {
+              "status": "passed",
+              "duration": 90546977
+            },
+            "line": 19,
+            "match": {
+              "location": "/Users/mateusmiranda/Desktop/Projetos/ProjetoLojaIntegrada/features/step_definitions/newsletter.js:26"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "name": "não consigo realizar o cadastro",
+            "result": {
+              "status": "passed",
+              "duration": 2038821665
+            },
+            "line": 20,
+            "match": {
+              "location": "/Users/mateusmiranda/Desktop/Projetos/ProjetoLojaIntegrada/features/step_definitions/newsletter.js:53"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "cadastro-de-newsletter;não-preencho-o-campo-e-mail-e-clico-em-cadastrar",
+        "keyword": "Scenario",
+        "line": 22,
+        "name": "Não preencho o campo e-mail e clico em cadastrar",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "name": "que eu esteja na home da Loja Integrada",
+            "result": {
+              "status": "passed",
+              "duration": 670659136
+            },
+            "line": 5,
+            "match": {
+              "location": "/Users/mateusmiranda/Desktop/Projetos/ProjetoLojaIntegrada/features/step_definitions/newsletter.js:15"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "name": "não preencho o campo de e-mail",
+            "result": {
+              "status": "passed",
+              "duration": 66290947
+            },
+            "line": 23,
+            "match": {
+              "location": "/Users/mateusmiranda/Desktop/Projetos/ProjetoLojaIntegrada/features/step_definitions/newsletter.js:59"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "name": "clico no botão de cadastro",
+            "result": {
+              "status": "passed",
+              "duration": 82291836
+            },
+            "line": 24,
+            "match": {
+              "location": "/Users/mateusmiranda/Desktop/Projetos/ProjetoLojaIntegrada/features/step_definitions/newsletter.js:26"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "name": "não consigo realizar o cadastro",
+            "result": {
+              "status": "passed",
+              "duration": 2039157848
+            },
+            "line": 25,
+            "match": {
+              "location": "/Users/mateusmiranda/Desktop/Projetos/ProjetoLojaIntegrada/features/step_definitions/newsletter.js:53"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "cadastro-de-newsletter",
+    "keyword": "Funcionalidade",
+    "line": 2,
+    "name": "Cadastro de Newsletter",
+    "tags": [],
+    "uri": "/Users/mateusmiranda/Desktop/Projetos/ProjetoLojaIntegrada/features/newsletter.feature"
+  }
+]
