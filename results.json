@@ -12,11 +12,12 @@
             "keyword": "Dado ",
             "name": "que estou na tela de cadastro de pessoa física",
             "result": {
-              "status": "pending"
+              "status": "passed",
+              "duration": 5470343316
             },
             "line": 5,
             "match": {
-              "location": "/Users/mateusmiranda/Desktop/Projetos/ProjetoLojaIntegrada/features/step_definitions/cadastropf.js:10"
+              "location": "/Users/mateusmiranda/Desktop/Projetos/ProjetoLojaIntegrada/features/step_definitions/cadastropf.js:13"
             }
           },
           {
@@ -24,27 +25,99 @@
             "keyword": "Quando ",
             "name": "preencho todos os campos da tela de cadastro",
             "result": {
-              "status": "undefined"
+              "status": "passed",
+              "duration": 1817464825
             },
-            "line": 8
+            "line": 8,
+            "match": {
+              "location": "/Users/mateusmiranda/Desktop/Projetos/ProjetoLojaIntegrada/features/step_definitions/cadastropf.js:18"
+            }
           },
           {
             "arguments": [],
             "keyword": "E ",
             "name": "clico no botão de cadastro de cliente",
             "result": {
-              "status": "undefined"
+              "status": "pending"
             },
-            "line": 9
+            "line": 9,
+            "match": {
+              "location": "/Users/mateusmiranda/Desktop/Projetos/ProjetoLojaIntegrada/features/step_definitions/cadastropf.js:23"
+            }
           },
           {
             "arguments": [],
             "keyword": "Então ",
             "name": "visualizo a mensagem de cadastro de cliente realizado com sucesso",
             "result": {
-              "status": "undefined"
+              "status": "skipped"
             },
-            "line": 10
+            "line": 10,
+            "match": {
+              "location": "/Users/mateusmiranda/Desktop/Projetos/ProjetoLojaIntegrada/features/step_definitions/cadastropf.js:28"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "cadastro-de-pessoa-física;cadastrar-e-mail-já-cadastrado",
+        "keyword": "Scenario",
+        "line": 12,
+        "name": "Cadastrar e-mail já cadastrado",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "name": "que estou na tela de cadastro de pessoa física",
+            "result": {
+              "status": "passed",
+              "duration": 2192187606
+            },
+            "line": 5,
+            "match": {
+              "location": "/Users/mateusmiranda/Desktop/Projetos/ProjetoLojaIntegrada/features/step_definitions/cadastropf.js:13"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "name": "preencho o campo de e-mail com um e-mail já cadastrado",
+            "result": {
+              "status": "passed",
+              "duration": 193600318
+            },
+            "line": 13,
+            "match": {
+              "location": "/Users/mateusmiranda/Desktop/Projetos/ProjetoLojaIntegrada/features/step_definitions/cadastropf.js:33"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "name": "clico no botão cadastrar",
+            "result": {
+              "status": "passed",
+              "duration": 1105359550
+            },
+            "line": 14,
+            "match": {
+              "location": "/Users/mateusmiranda/Desktop/Projetos/ProjetoLojaIntegrada/features/step_definitions/cadastropf.js:38"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "name": "visualizo a mensagem de cliente já cadastrado",
+            "result": {
+              "status": "passed",
+              "duration": 2051765687
+            },
+            "line": 15,
+            "match": {
+              "location": "/Users/mateusmiranda/Desktop/Projetos/ProjetoLojaIntegrada/features/step_definitions/cadastropf.js:43"
+            }
           }
         ],
         "tags": [],
@@ -72,7 +145,7 @@
             "name": "que eu esteja na home da Loja Integrada",
             "result": {
               "status": "passed",
-              "duration": 3042209968
+              "duration": 1290974555
             },
             "line": 5,
             "match": {
@@ -85,7 +158,7 @@
             "name": "preencho o campo de e-mail",
             "result": {
               "status": "passed",
-              "duration": 221558417
+              "duration": 167551113
             },
             "line": 8,
             "match": {
@@ -98,7 +171,7 @@
             "name": "clico no botão de cadastro",
             "result": {
               "status": "passed",
-              "duration": 118145446
+              "duration": 100230976
             },
             "line": 9,
             "match": {
@@ -111,7 +184,7 @@
             "name": "visualizo a mensagem de cadastro realizado com sucesso",
             "result": {
               "status": "passed",
-              "duration": 2052628572
+              "duration": 2046024747
             },
             "line": 10,
             "match": {
@@ -134,7 +207,7 @@
             "name": "que eu esteja na home da Loja Integrada",
             "result": {
               "status": "passed",
-              "duration": 1426111151
+              "duration": 713386127
             },
             "line": 5,
             "match": {
@@ -147,7 +220,7 @@
             "name": "preencho o campo de e-mail com um e-mail ja cadastrado",
             "result": {
               "status": "passed",
-              "duration": 178424009
+              "duration": 152024856
             },
             "line": 13,
             "match": {
@@ -160,7 +233,7 @@
             "name": "clico no botão de cadastro",
             "result": {
               "status": "passed",
-              "duration": 102817315
+              "duration": 94910737
             },
             "line": 14,
             "match": {
@@ -173,7 +246,7 @@
             "name": "visualizo a mensagem de e-mail ja cadastrado",
             "result": {
               "status": "passed",
-              "duration": 2061666769
+              "duration": 2046307299
             },
             "line": 15,
             "match": {
@@ -196,7 +269,7 @@
             "name": "que eu esteja na home da Loja Integrada",
             "result": {
               "status": "passed",
-              "duration": 970484383
+              "duration": 696161145
             },
             "line": 5,
             "match": {
@@ -209,7 +282,7 @@
             "name": "preencho o campo de e-mail com formato inválido",
             "result": {
               "status": "passed",
-              "duration": 92076947
+              "duration": 98102734
             },
             "line": 18,
             "match": {
@@ -222,7 +295,7 @@
             "name": "clico no botão de cadastro",
             "result": {
               "status": "passed",
-              "duration": 78444229
+              "duration": 77892731
             },
             "line": 19,
             "match": {
@@ -235,7 +308,7 @@
             "name": "não consigo realizar o cadastro",
             "result": {
               "status": "passed",
-              "duration": 2037788263
+              "duration": 2038281912
             },
             "line": 20,
             "match": {
@@ -258,7 +331,7 @@
             "name": "que eu esteja na home da Loja Integrada",
             "result": {
               "status": "passed",
-              "duration": 674302756
+              "duration": 695923188
             },
             "line": 5,
             "match": {
@@ -271,7 +344,7 @@
             "name": "não preencho o campo de e-mail",
             "result": {
               "status": "passed",
-              "duration": 60807730
+              "duration": 50053256
             },
             "line": 23,
             "match": {
@@ -284,7 +357,7 @@
             "name": "clico no botão de cadastro",
             "result": {
               "status": "passed",
-              "duration": 95666317
+              "duration": 86661777
             },
             "line": 24,
             "match": {
@@ -297,7 +370,7 @@
             "name": "não consigo realizar o cadastro",
             "result": {
               "status": "passed",
-              "duration": 2039531982
+              "duration": 2035373540
             },
             "line": 25,
             "match": {

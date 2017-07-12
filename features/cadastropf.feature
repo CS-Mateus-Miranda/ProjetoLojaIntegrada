@@ -8,3 +8,8 @@ Funcionalidade: Cadastro de Pessoa Física
     Quando preencho todos os campos da tela de cadastro
     E clico no botão de cadastro de cliente
     Então visualizo a mensagem de cadastro de cliente realizado com sucesso
+
+  Cenário: Cadastrar e-mail já cadastrado
+    Quando preencho o campo de e-mail com um e-mail já cadastrado
+    E clico no botão cadastrar
+    Então visualizo a mensagem de cliente já cadastrado
