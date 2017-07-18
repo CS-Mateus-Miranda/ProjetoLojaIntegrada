@@ -13,3 +13,8 @@ Funcionalidade: Cadastro de Pessoa Física
     Quando preencho o campo de e-mail com um e-mail já cadastrado
     E clico no botão cadastrar
     Então visualizo a mensagem de cliente já cadastrado
+
+  Cenário: Cadastrar sem preencher os campos obrigatórios
+    Quando não preencho os campos obrigatórios
+    E clico no botão cadastrar
+    Então não consigo realizar o cadastro com sucesso
