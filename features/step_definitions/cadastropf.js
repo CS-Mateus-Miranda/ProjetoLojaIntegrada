@@ -18,14 +18,15 @@ module.exports = function() {
 
     // I
     this.When(/^preencho todos os campos da tela de cadastro$/, {timeout: 1000 * 1000},function (callback) {
-        inicial.digitaremail().then(callback);
+        inicial.digitaremail().then(callback); // Digita e-mail na primeira tela e clica no botao de cadastro
         inicial.cadastrocompleto().then(callback);
-        browser.driver.sleep(5000);
+        //browser.driver.sleep(5000);
     });
 
     // Todos
     this.When(/^clico no botão de cadastro de cliente$/, function (callback) {
         inicial.clickCadastro().then(callback);
+        //callback(null, 'pending');
     });
 
     // I
@@ -33,31 +34,37 @@ module.exports = function() {
         callback(null, 'pending');
     });
 
-    // Cenário II - Quando preencho o campo de e-mail com um e-mail já cadastrado
+    // II
     this.When(/^preencho o campo de e\-mail com um e\-mail já cadastrado$/, function (callback) {
         inicial.emailjacadastrado().then(callback);
     });
 
-    // Cenário II - E clico no botão cadastrar
+    // II
     this.When(/^clico no botão cadastrar$/, function (callback) {
         inicial.clicarbotaocadastrar().then(callback);
     });
 
-    // Cenário II - Então visualizo a mensagem de cliente já cadastrado
+    // II
     this.Then(/^visualizo a mensagem de cliente já cadastrado$/, function (callback) {
         browser.driver.sleep(2000);
         expect(element(by.css('.close')).isDisplayed()).to.eventually.be.true.and.notify(callback);
+        //callback(null, 'pending');
     });
 
-    // Cenário III
+    // III
     this.When(/^não preencho os campos obrigatórios$/, function (callback) {
-        inicial.sempreenchimento().then(callback);
+        inicial.digitaremail().then(callback);
+        //callback(null, 'pending');
     });
 
-    // Cenário III
+    // III
     this.Then(/^não consigo realizar o cadastro com sucesso$/, function (callback) {
-        browser.driver.sleep(1000);
-        expect(element(by.css('.id_nome')).isDisplayed()).to.eventually.be.true.and.notify(callback);
+        var elm = element(by.id('id_tipo_0'));
+        var EC = protractor.ExpectedConditions;
+        browser.wait(EC.elementToBeClickable(elm), 10000);
+        //elm.click();
+        expect(element(by.id('id_tipo_0')).isDisplayed()).to.eventually.be.true.and.notify(callback);
+        //callback(null, 'pending');
     });
     
 }

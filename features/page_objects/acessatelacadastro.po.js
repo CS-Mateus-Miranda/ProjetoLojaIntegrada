@@ -15,7 +15,7 @@ class Acessa{
             aleatorio += letras.substring(rnum, rnum + 1);
         }
         aleatorio += "@gmail.com";
-    return aleatorio;
+        return aleatorio;
     }
 
     digitaremail(){
@@ -29,13 +29,12 @@ class Acessa{
     }
 
     clicarbotaocadastrar(){
-        // Botão cadastrar da primeira tela.
         return this.botaoconfirmar = element(by.css('#id_email+ .principal')).click();
     }
 
     cadastrocompleto(){
         const helper = new Helper();
-        return helper.slowType(element(by.id('id_confirmacao_email')), 'miranda@miranda2.com');
+        return helper.slowType(element(by.id('id_confirmacao_email')), 'm@m');
         //this.inputconfirmemail = element(by.id('id_confirmacao_email')).sendKeys('miranda@miranda2.com');
         //this.inputsenha = element(by.id('id_senha')).sendKeys('senhaforte');
         //this.inputconfirmsenha = element(by.id('id_confirmacao_senha')).sendKeys('senhaforte');
@@ -54,7 +53,10 @@ class Acessa{
     }
 
     clickCadastro(){
-        return this.botao = element(by.css('.principal')).click();
+        var elm = element(by.id('id_tipo_0'));
+        var EC = protractor.ExpectedConditions;
+        browser.wait(EC.elementToBeClickable(elm), 10000);
+        return this.botao = element(by.css('.acao-editar  .principal')).click();
     }
 
     sempreenchimento(){

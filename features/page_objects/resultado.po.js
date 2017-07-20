@@ -2,13 +2,6 @@
 
 class Resultado{
 
-    elementopresente(){
-      
-
-
-    }
-
-
 }
 
 module.exports = Resultado;

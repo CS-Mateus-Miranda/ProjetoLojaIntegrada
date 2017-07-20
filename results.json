@@ -13,7 +13,7 @@
             "name": "que estou na tela de cadastro de pessoa física",
             "result": {
               "status": "passed",
-              "duration": 4392059530
+              "duration": 5136374605
             },
             "line": 5,
             "match": {
@@ -26,7 +26,7 @@
             "name": "preencho todos os campos da tela de cadastro",
             "result": {
               "status": "passed",
-              "duration": 1158028293
+              "duration": 988830520
             },
             "line": 8,
             "match": {
@@ -38,9 +38,8 @@
             "keyword": "E ",
             "name": "clico no botão de cadastro de cliente",
             "result": {
-              "status": "failed",
-              "duration": 80912123,
-              "error_message": "ElementNotVisibleError: element not visible\n  (Session info: chrome=59.0.3071.115)\n  (Driver info: chromedriver=2.30.477690 (c53f4ad87510ee97b5c3425a14c0e79780cdf262),platform=Mac OS X 10.11.1 x86_64)\n    at Object.checkLegacyResponse (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/error.js:505:15)\n    at parseHttpResponse (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/http.js:509:13)\n    at doSend.then.response (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/http.js:440:13)\n    at process._tickCallback (internal/process/next_tick.js:109:7)\nFrom: Task: WebElement.click()\n    at Driver.schedule (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/webdriver.js:816:17)\n    at WebElement.schedule_ (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/webdriver.js:1921:25)\n    at WebElement.click (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/webdriver.js:2002:17)\n    at actionFn (/usr/local/lib/node_modules/protractor/lib/element.ts:94:34)\n    at Array.map (native)\n    at actionResults.getWebElements.then (/usr/local/lib/node_modules/protractor/lib/element.ts:484:67)\n    at ManagedPromise.invokeCallback_ (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:1366:14)\n    at TaskQueue.execute_ (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:2970:14)\n    at TaskQueue.executeNext_ (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:2953:27)\n    at asyncRun (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:2813:27)Error\n    at ElementArrayFinder.applyAction_ (/usr/local/lib/node_modules/protractor/lib/element.ts:482:23)\n    at ElementArrayFinder.(anonymous function).args [as click] (/usr/local/lib/node_modules/protractor/lib/element.ts:96:21)\n    at ElementFinder.(anonymous function).args [as click] (/usr/local/lib/node_modules/protractor/lib/element.ts:873:14)\n    at Acessa.clickCadastro (/Users/mateusmiranda/Desktop/Projetos/ProjetoLojaIntegrada/features/page_objects/acessatelacadastro.po.js:57:59)\n    at World.<anonymous> (/Users/mateusmiranda/Desktop/Projetos/ProjetoLojaIntegrada/features/step_definitions/cadastropf.js:28:17)"
+              "status": "passed",
+              "duration": 244299468
             },
             "line": 9,
             "match": {
@@ -52,11 +51,11 @@
             "keyword": "Então ",
             "name": "visualizo a mensagem de cadastro de cliente realizado com sucesso",
             "result": {
-              "status": "skipped"
+              "status": "pending"
             },
             "line": 10,
             "match": {
-              "location": "/Users/mateusmiranda/Desktop/Projetos/ProjetoLojaIntegrada/features/step_definitions/cadastropf.js:32"
+              "location": "/Users/mateusmiranda/Desktop/Projetos/ProjetoLojaIntegrada/features/step_definitions/cadastropf.js:33"
             }
           }
         ],
@@ -75,7 +74,7 @@
             "name": "que estou na tela de cadastro de pessoa física",
             "result": {
               "status": "passed",
-              "duration": 1724432729
+              "duration": 1375958475
             },
             "line": 5,
             "match": {
@@ -88,11 +87,11 @@
             "name": "preencho o campo de e-mail com um e-mail já cadastrado",
             "result": {
               "status": "passed",
-              "duration": 208760223
+              "duration": 184975026
             },
             "line": 13,
             "match": {
-              "location": "/Users/mateusmiranda/Desktop/Projetos/ProjetoLojaIntegrada/features/step_definitions/cadastropf.js:37"
+              "location": "/Users/mateusmiranda/Desktop/Projetos/ProjetoLojaIntegrada/features/step_definitions/cadastropf.js:38"
             }
           },
           {
@@ -101,11 +100,11 @@
             "name": "clico no botão cadastrar",
             "result": {
               "status": "passed",
-              "duration": 992417412
+              "duration": 1163131343
             },
             "line": 14,
             "match": {
-              "location": "/Users/mateusmiranda/Desktop/Projetos/ProjetoLojaIntegrada/features/step_definitions/cadastropf.js:42"
+              "location": "/Users/mateusmiranda/Desktop/Projetos/ProjetoLojaIntegrada/features/step_definitions/cadastropf.js:43"
             }
           },
           {
@@ -114,11 +113,11 @@
             "name": "visualizo a mensagem de cliente já cadastrado",
             "result": {
               "status": "passed",
-              "duration": 2045326235
+              "duration": 2046643930
             },
             "line": 15,
             "match": {
-              "location": "/Users/mateusmiranda/Desktop/Projetos/ProjetoLojaIntegrada/features/step_definitions/cadastropf.js:47"
+              "location": "/Users/mateusmiranda/Desktop/Projetos/ProjetoLojaIntegrada/features/step_definitions/cadastropf.js:48"
             }
           }
         ],
@@ -137,7 +136,7 @@
             "name": "que estou na tela de cadastro de pessoa física",
             "result": {
               "status": "passed",
-              "duration": 1476940850
+              "duration": 1354482308
             },
             "line": 5,
             "match": {
@@ -150,24 +149,24 @@
             "name": "não preencho os campos obrigatórios",
             "result": {
               "status": "passed",
-              "duration": 2004750660
+              "duration": 905235302
             },
             "line": 18,
             "match": {
-              "location": "/Users/mateusmiranda/Desktop/Projetos/ProjetoLojaIntegrada/features/step_definitions/cadastropf.js:53"
+              "location": "/Users/mateusmiranda/Desktop/Projetos/ProjetoLojaIntegrada/features/step_definitions/cadastropf.js:55"
             }
           },
           {
             "arguments": [],
             "keyword": "E ",
-            "name": "clico no botão cadastrar",
+            "name": "clico no botão de cadastro de cliente",
             "result": {
               "status": "passed",
-              "duration": 909822263
+              "duration": 207209484
             },
             "line": 19,
             "match": {
-              "location": "/Users/mateusmiranda/Desktop/Projetos/ProjetoLojaIntegrada/features/step_definitions/cadastropf.js:42"
+              "location": "/Users/mateusmiranda/Desktop/Projetos/ProjetoLojaIntegrada/features/step_definitions/cadastropf.js:27"
             }
           },
           {
@@ -175,13 +174,12 @@
             "keyword": "Então ",
             "name": "não consigo realizar o cadastro com sucesso",
             "result": {
-              "status": "failed",
-              "duration": 1030463184,
-              "error_message": "NoSuchElementError: No element found using locator: By(css selector, .id_nome)\n    at elementArrayFinder.getWebElements.then (/usr/local/lib/node_modules/protractor/lib/element.ts:851:17)\n    at ManagedPromise.invokeCallback_ (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:1366:14)\n    at TaskQueue.execute_ (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:2970:14)\n    at TaskQueue.executeNext_ (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:2953:27)\n    at asyncRun (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:2813:27)\n    at /usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:676:7\n    at process._tickCallback (internal/process/next_tick.js:109:7)Error\n    at ElementArrayFinder.applyAction_ (/usr/local/lib/node_modules/protractor/lib/element.ts:482:23)\n    at ElementArrayFinder.(anonymous function).args [as isDisplayed] (/usr/local/lib/node_modules/protractor/lib/element.ts:96:21)\n    at ElementFinder.(anonymous function).args [as isDisplayed] (/usr/local/lib/node_modules/protractor/lib/element.ts:873:14)\n    at World.<anonymous> (/Users/mateusmiranda/Desktop/Projetos/ProjetoLojaIntegrada/features/step_definitions/cadastropf.js:60:44)\n    at _combinedTickCallback (internal/process/next_tick.js:73:7)"
+              "status": "passed",
+              "duration": 121295422
             },
             "line": 20,
             "match": {
-              "location": "/Users/mateusmiranda/Desktop/Projetos/ProjetoLojaIntegrada/features/step_definitions/cadastropf.js:58"
+              "location": "/Users/mateusmiranda/Desktop/Projetos/ProjetoLojaIntegrada/features/step_definitions/cadastropf.js:61"
             }
           }
         ],
@@ -210,7 +208,7 @@
             "name": "que eu esteja na home da Loja Integrada",
             "result": {
               "status": "passed",
-              "duration": 1177149341
+              "duration": 1137256765
             },
             "line": 5,
             "match": {
@@ -223,7 +221,7 @@
             "name": "preencho o campo de e-mail",
             "result": {
               "status": "passed",
-              "duration": 165701206
+              "duration": 146624302
             },
             "line": 8,
             "match": {
@@ -236,7 +234,7 @@
             "name": "clico no botão de cadastro",
             "result": {
               "status": "passed",
-              "duration": 97008412
+              "duration": 83804347
             },
             "line": 9,
             "match": {
@@ -249,7 +247,7 @@
             "name": "visualizo a mensagem de cadastro realizado com sucesso",
             "result": {
               "status": "passed",
-              "duration": 2056644731
+              "duration": 2050202427
             },
             "line": 10,
             "match": {
@@ -272,7 +270,7 @@
             "name": "que eu esteja na home da Loja Integrada",
             "result": {
               "status": "passed",
-              "duration": 663489442
+              "duration": 603913102
             },
             "line": 5,
             "match": {
@@ -285,7 +283,7 @@
             "name": "preencho o campo de e-mail com um e-mail ja cadastrado",
             "result": {
               "status": "passed",
-              "duration": 193026045
+              "duration": 142990940
             },
             "line": 13,
             "match": {
@@ -298,7 +296,7 @@
             "name": "clico no botão de cadastro",
             "result": {
               "status": "passed",
-              "duration": 88410556
+              "duration": 73532235
             },
             "line": 14,
             "match": {
@@ -311,7 +309,7 @@
             "name": "visualizo a mensagem de e-mail ja cadastrado",
             "result": {
               "status": "passed",
-              "duration": 2046754179
+              "duration": 271266553
             },
             "line": 15,
             "match": {
@@ -334,7 +332,7 @@
             "name": "que eu esteja na home da Loja Integrada",
             "result": {
               "status": "passed",
-              "duration": 653911990
+              "duration": 600139381
             },
             "line": 5,
             "match": {
@@ -347,11 +345,11 @@
             "name": "preencho o campo de e-mail com formato inválido",
             "result": {
               "status": "passed",
-              "duration": 94217816
+              "duration": 75950726
             },
             "line": 18,
             "match": {
-              "location": "/Users/mateusmiranda/Desktop/Projetos/ProjetoLojaIntegrada/features/step_definitions/newsletter.js:48"
+              "location": "/Users/mateusmiranda/Desktop/Projetos/ProjetoLojaIntegrada/features/step_definitions/newsletter.js:51"
             }
           },
           {
@@ -360,7 +358,7 @@
             "name": "clico no botão de cadastro",
             "result": {
               "status": "passed",
-              "duration": 91131952
+              "duration": 68421061
             },
             "line": 19,
             "match": {
@@ -373,11 +371,11 @@
             "name": "não consigo realizar o cadastro",
             "result": {
               "status": "passed",
-              "duration": 2034921619
+              "duration": 2031492705
             },
             "line": 20,
             "match": {
-              "location": "/Users/mateusmiranda/Desktop/Projetos/ProjetoLojaIntegrada/features/step_definitions/newsletter.js:53"
+              "location": "/Users/mateusmiranda/Desktop/Projetos/ProjetoLojaIntegrada/features/step_definitions/newsletter.js:56"
             }
           }
         ],
@@ -396,7 +394,7 @@
             "name": "que eu esteja na home da Loja Integrada",
             "result": {
               "status": "passed",
-              "duration": 657898100
+              "duration": 589431648
             },
             "line": 5,
             "match": {
@@ -409,11 +407,11 @@
             "name": "não preencho o campo de e-mail",
             "result": {
               "status": "passed",
-              "duration": 67681878
+              "duration": 78939886
             },
             "line": 23,
             "match": {
-              "location": "/Users/mateusmiranda/Desktop/Projetos/ProjetoLojaIntegrada/features/step_definitions/newsletter.js:59"
+              "location": "/Users/mateusmiranda/Desktop/Projetos/ProjetoLojaIntegrada/features/step_definitions/newsletter.js:62"
             }
           },
           {
@@ -422,7 +420,7 @@
             "name": "clico no botão de cadastro",
             "result": {
               "status": "passed",
-              "duration": 106846728
+              "duration": 99231565
             },
             "line": 24,
             "match": {
@@ -434,12 +432,13 @@
             "keyword": "Então ",
             "name": "não consigo realizar o cadastro",
             "result": {
-              "status": "passed",
-              "duration": 2031725448
+              "status": "failed",
+              "duration": 12259671,
+              "error_message": "StaleElementReferenceError: stale element reference: element is not attached to the page document\n  (Session info: chrome=59.0.3071.115)\n  (Driver info: chromedriver=2.30.477690 (c53f4ad87510ee97b5c3425a14c0e79780cdf262),platform=Mac OS X 10.11.1 x86_64)\n    at Object.checkLegacyResponse (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/error.js:505:15)\n    at parseHttpResponse (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/http.js:509:13)\n    at doSend.then.response (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/http.js:440:13)\n    at process._tickCallback (internal/process/next_tick.js:109:7)\nFrom: Task: mouseMove\n    at Driver.schedule (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/webdriver.js:816:17)\n    at actions.map.action (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/actions.js:124:23)\n    at Array.map (native)\n    at /usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/actions.js:123:29\n    at TaskQueue.execute_ (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:2970:14)\n    at TaskQueue.executeNext_ (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:2953:27)\n    at asyncRun (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:2813:27)\n    at /usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:676:7\nFrom: Task: ActionSequence.perform\n    at ActionSequence.perform (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/actions.js:122:33)\n    at Helper.slowType (/Users/mateusmiranda/Desktop/Projetos/ProjetoLojaIntegrada/features/page_objects/Helper.js:9:21)\n    at Acessa.cadastrocompleto (/Users/mateusmiranda/Desktop/Projetos/ProjetoLojaIntegrada/features/page_objects/acessatelacadastro.po.js:37:23)\n    at World.<anonymous> (/Users/mateusmiranda/Desktop/Projetos/ProjetoLojaIntegrada/features/step_definitions/cadastropf.js:22:17)\n    at _combinedTickCallback (internal/process/next_tick.js:73:7)"
             },
             "line": 25,
             "match": {
-              "location": "/Users/mateusmiranda/Desktop/Projetos/ProjetoLojaIntegrada/features/step_definitions/newsletter.js:53"
+              "location": "/Users/mateusmiranda/Desktop/Projetos/ProjetoLojaIntegrada/features/step_definitions/newsletter.js:56"
             }
           }
         ],

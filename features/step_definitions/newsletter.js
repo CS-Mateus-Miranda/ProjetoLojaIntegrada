@@ -40,7 +40,10 @@ module.exports = function() {
 
     // II   
     this.Then(/^visualizo a mensagem de e\-mail ja cadastrado$/, function (callback) {
-        browser.driver.sleep(2000);
+        //browser.driver.sleep(4000);
+        var elm = element(by.css('.text-error'));
+        var EC = protractor.ExpectedConditions;
+        browser.wait(EC.elementToBeClickable(elm), 10000);
         expect(element(by.css('.text-error')).isDisplayed()).to.eventually.be.true.and.notify(callback);
     });
 
@@ -50,7 +53,7 @@ module.exports = function() {
     });
 
     // III
-    this.Then(/^não consigo realizar o cadastro$/, function (callback) {
+    this.Then(/^não consigo realizar o cadastro$/, {timeout: 10 * 1000} ,function (callback) {
         browser.driver.sleep(2000);
         expect(element(by.css('.icon-3x')).isDisplayed()).to.eventually.be.false.and.notify(callback);
     });

@@ -16,5 +16,5 @@ Funcionalidade: Cadastro de Pessoa Física
 
   Cenário: Cadastrar sem preencher os campos obrigatórios
     Quando não preencho os campos obrigatórios
-    E clico no botão cadastrar
+    E clico no botão de cadastro de cliente
     Então não consigo realizar o cadastro com sucesso
