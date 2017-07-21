@@ -6,6 +6,7 @@ let expect = chai.expect;
 const Inicial = require('../page_objects/acessatelacadastro.po.js');
 const Cadastro = require('../page_objects/cadastrocliente.po.js');
 
+
 module.exports = function() {
 
     const inicial = new Inicial();

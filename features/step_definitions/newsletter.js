@@ -18,8 +18,7 @@ module.exports = function() {
 
     // I
     this.When(/^preencho o campo de e\-mail$/, function (callback) {
-        var imeiu = newsletter.stringaleatoria();
-        newsletter.preencheremail(imeiu).then(callback);
+        newsletter.newemail().then(callback);
     });
 
     // Todos
