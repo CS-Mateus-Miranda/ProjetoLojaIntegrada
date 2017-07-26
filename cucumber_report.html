@@ -234,7 +234,7 @@ th {
           <a class="navbar-brand">Cucumberjs Report</a>
           <div class="project-name visible-md visible-lg">testes_loja_integrada</div>
           <div class="label-container">
-            <span class="label label-success" title=scenarios>Passed: 5</span>
+            <span class="label label-success" title=scenarios>Passed: 3</span>
             <span class="label label-danger" title=scenarios>Failed: 1</span>
           </div>
         </div>
@@ -243,7 +243,7 @@ th {
 
     <div class="container">
 
-      <div class="generated-on">Tue Jul 25 2017 15:13:23 GMT-0300 (BRT)</div>
+      <div class="generated-on">Wed Jul 26 2017 14:12:07 GMT-0300 (BRT)</div>
 
       <div class="row">
         <div class="chart col-lg-6 col-md-6" id="piechart_features"></div>
@@ -334,10 +334,10 @@ th {
             <i class="glyphicon glyphicon-chevron-down"></i>
             <b>Funcionalidade:</b>Cadastro de Pessoa Física
             <span class="label-container">
-              <span class="label label-success" title="Passed">2</span>
               
               
-              <span class="label label-default" title="Pending">1</span>
+              <span class="label label-info" title="Undefined">3</span>
+              
               
               
             </span> 
@@ -358,10 +358,10 @@ th {
                     <i class="glyphicon glyphicon-chevron-down"></i>
                     <b>Scenario:</b>Realizar cadastro preenchendo todos os campos
                     <span class="label-container">
-                      <span class="label label-success" title="Passed">3</span>
                       
-                      <span class="label label-default" title="Pending">1</span>
+                      <span class="label label-info" title="Undefined">2</span>
                       
+                      <span class="label label-warning" title="Skipped">1</span>
                       
                       
                     </span>
@@ -376,22 +376,25 @@ th {
                     <p class="scenario-container">
                     
                       
-                        <span class="label label-success" title="Success"><i class="glyphicon glyphicon-ok"></i></span>
+                        <span class="label label-info" title="Undefined"><i class="glyphicon glyphicon-flash"></i></span>
                       
                     
                       <span class="text">
                         <span class="keyword highlight">Dado </span>
-                        que estou na tela de cadastro de pessoa física
+                        que eu não tenha cadastrado um cliente
                           
-                              <span class="step-duration">
-                               6s
-                              </span>
-                            
                          
                             
                           
                       </span>
                     
+                      
+                        <pre class=info>
+this.Then(/^que eu não tenha cadastrado um cliente$/, function(callback) {
+  // Write code here that turns the phrase above into concrete actions
+  callback(null, 'pending');
+});
+                        </pre>
                       
 
                       
@@ -408,22 +411,25 @@ th {
                     <p class="scenario-container">
                     
                       
-                        <span class="label label-success" title="Success"><i class="glyphicon glyphicon-ok"></i></span>
+                        <span class="label label-info" title="Undefined"><i class="glyphicon glyphicon-flash"></i></span>
                       
                     
                       <span class="text">
                         <span class="keyword highlight">Quando </span>
-                        preencho todos os campos da tela de cadastro
+                        cadastro um novo cliente
                           
-                              <span class="step-duration">
-                               1s
-                              </span>
-                            
                          
                             
                           
                       </span>
                     
+                      
+                        <pre class=info>
+this.Then(/^cadastro um novo cliente$/, function(callback) {
+  // Write code here that turns the phrase above into concrete actions
+  callback(null, 'pending');
+});
+                        </pre>
                       
 
                       
@@ -440,40 +446,8 @@ th {
                     <p class="scenario-container">
                     
                       
-                        <span class="label label-success" title="Success"><i class="glyphicon glyphicon-ok"></i></span>
+                        <span class="label label-warning" title="Skipped"><i class="glyphicon glyphicon-minus"></i></span>
                       
-                    
-                      <span class="text">
-                        <span class="keyword highlight">E </span>
-                        clico no botão de cadastro de cliente
-                          
-                              <span class="step-duration">
-                               0s
-                              </span>
-                            
-                         
-                            
-                          
-                      </span>
-                    
-                      
-
-                      
-
-                      
-
-                       
-
-                    
-                    </p>
-                    
-                  
-                    
-                    <p class="scenario-container">
-                    
-                      
-                        <span class="label label-default" title="Pending"><i class="glyphicon glyphicon-exclamation-sign"></i></span>
-                       
                     
                       <span class="text">
                         <span class="keyword highlight">Então </span>
@@ -510,10 +484,10 @@ th {
                     <i class="glyphicon glyphicon-chevron-down"></i>
                     <b>Scenario:</b>Cadastrar e-mail já cadastrado
                     <span class="label-container">
-                      <span class="label label-success" title="Passed">4</span>
                       
+                      <span class="label label-info" title="Undefined">2</span>
                       
-                      
+                      <span class="label label-warning" title="Skipped">1</span>
                       
                       
                     </span>
@@ -528,22 +502,25 @@ th {
                     <p class="scenario-container">
                     
                       
-                        <span class="label label-success" title="Success"><i class="glyphicon glyphicon-ok"></i></span>
+                        <span class="label label-info" title="Undefined"><i class="glyphicon glyphicon-flash"></i></span>
                       
                     
                       <span class="text">
                         <span class="keyword highlight">Dado </span>
-                        que estou na tela de cadastro de pessoa física
+                        que eu tenha cadastrado um cliente
                           
-                              <span class="step-duration">
-                               2s
-                              </span>
-                            
                          
                             
                           
                       </span>
                     
+                      
+                        <pre class=info>
+this.Then(/^que eu tenha cadastrado um cliente$/, function(callback) {
+  // Write code here that turns the phrase above into concrete actions
+  callback(null, 'pending');
+});
+                        </pre>
                       
 
                       
@@ -560,22 +537,25 @@ th {
                     <p class="scenario-container">
                     
                       
-                        <span class="label label-success" title="Success"><i class="glyphicon glyphicon-ok"></i></span>
+                        <span class="label label-info" title="Undefined"><i class="glyphicon glyphicon-flash"></i></span>
                       
                     
                       <span class="text">
                         <span class="keyword highlight">Quando </span>
-                        preencho o campo de e-mail com um e-mail já cadastrado
+                        cadastro um cliente já existente
                           
-                              <span class="step-duration">
-                               0s
-                              </span>
-                            
                          
                             
                           
                       </span>
                     
+                      
+                        <pre class=info>
+this.Then(/^cadastro um cliente já existente$/, function(callback) {
+  // Write code here that turns the phrase above into concrete actions
+  callback(null, 'pending');
+});
+                        </pre>
                       
 
                       
@@ -592,49 +572,13 @@ th {
                     <p class="scenario-container">
                     
                       
-                        <span class="label label-success" title="Success"><i class="glyphicon glyphicon-ok"></i></span>
-                      
-                    
-                      <span class="text">
-                        <span class="keyword highlight">E </span>
-                        clico no botão cadastrar
-                          
-                              <span class="step-duration">
-                               1s
-                              </span>
-                            
-                         
-                            
-                          
-                      </span>
-                    
-                      
-
-                      
-
-                      
-
-                       
-
-                    
-                    </p>
-                    
-                  
-                    
-                    <p class="scenario-container">
-                    
-                      
-                        <span class="label label-success" title="Success"><i class="glyphicon glyphicon-ok"></i></span>
+                        <span class="label label-warning" title="Skipped"><i class="glyphicon glyphicon-minus"></i></span>
                       
                     
                       <span class="text">
                         <span class="keyword highlight">Então </span>
                         visualizo a mensagem de cliente já cadastrado
                           
-                              <span class="step-duration">
-                               2s
-                              </span>
-                            
                          
                             
                           
@@ -666,10 +610,10 @@ th {
                     <i class="glyphicon glyphicon-chevron-down"></i>
                     <b>Scenario:</b>Cadastrar sem preencher os campos obrigatórios
                     <span class="label-container">
-                      <span class="label label-success" title="Passed">4</span>
                       
+                      <span class="label label-info" title="Undefined">2</span>
                       
-                      
+                      <span class="label label-warning" title="Skipped">1</span>
                       
                       
                     </span>
@@ -684,22 +628,25 @@ th {
                     <p class="scenario-container">
                     
                       
-                        <span class="label label-success" title="Success"><i class="glyphicon glyphicon-ok"></i></span>
+                        <span class="label label-info" title="Undefined"><i class="glyphicon glyphicon-flash"></i></span>
                       
                     
                       <span class="text">
                         <span class="keyword highlight">Dado </span>
-                        que estou na tela de cadastro de pessoa física
+                        que eu não tenha cadastrado um cliente
                           
-                              <span class="step-duration">
-                               2s
-                              </span>
-                            
                          
                             
                           
                       </span>
                     
+                      
+                        <pre class=info>
+this.Then(/^que eu não tenha cadastrado um cliente$/, function(callback) {
+  // Write code here that turns the phrase above into concrete actions
+  callback(null, 'pending');
+});
+                        </pre>
                       
 
                       
@@ -716,22 +663,25 @@ th {
                     <p class="scenario-container">
                     
                       
-                        <span class="label label-success" title="Success"><i class="glyphicon glyphicon-ok"></i></span>
+                        <span class="label label-info" title="Undefined"><i class="glyphicon glyphicon-flash"></i></span>
                       
                     
                       <span class="text">
                         <span class="keyword highlight">Quando </span>
-                        não preencho os campos obrigatórios
+                        cadastro um cliente sem preencher as informações
                           
-                              <span class="step-duration">
-                               1s
-                              </span>
-                            
                          
                             
                           
                       </span>
                     
+                      
+                        <pre class=info>
+this.Then(/^cadastro um cliente sem preencher as informações$/, function(callback) {
+  // Write code here that turns the phrase above into concrete actions
+  callback(null, 'pending');
+});
+                        </pre>
                       
 
                       
@@ -748,49 +698,13 @@ th {
                     <p class="scenario-container">
                     
                       
-                        <span class="label label-success" title="Success"><i class="glyphicon glyphicon-ok"></i></span>
-                      
-                    
-                      <span class="text">
-                        <span class="keyword highlight">E </span>
-                        clico no botão de cadastro de cliente
-                          
-                              <span class="step-duration">
-                               0s
-                              </span>
-                            
-                         
-                            
-                          
-                      </span>
-                    
-                      
-
-                      
-
-                      
-
-                       
-
-                    
-                    </p>
-                    
-                  
-                    
-                    <p class="scenario-container">
-                    
-                      
-                        <span class="label label-success" title="Success"><i class="glyphicon glyphicon-ok"></i></span>
+                        <span class="label label-warning" title="Skipped"><i class="glyphicon glyphicon-minus"></i></span>
                       
                     
                       <span class="text">
                         <span class="keyword highlight">Então </span>
                         não consigo realizar o cadastro com sucesso
                           
-                              <span class="step-duration">
-                               0s
-                              </span>
-                            
                          
                             
                           
@@ -853,11 +767,11 @@ th {
                     <i class="glyphicon glyphicon-chevron-down"></i>
                     <b>Scenario:</b>Cadastrar e-mail válido na Newsletter
                     <span class="label-container">
-                      <span class="label label-success" title="Passed">3</span>
                       
                       
                       
-                      
+                      <span class="label label-warning" title="Skipped">2</span>
+                      <span class="label label-danger" title="Failed">1</span>
                       
                     </span>
                   </a>
@@ -871,7 +785,7 @@ th {
                     <p class="scenario-container">
                     
                       
-                        <span class="label label-success" title="Success"><i class="glyphicon glyphicon-ok"></i></span>
+                        <span class="label label-danger" title="Failed"><i class="glyphicon glyphicon-remove"></i></span>
                       
                     
                       <span class="text">
@@ -879,7 +793,7 @@ th {
                         que ainda não tenha cadastrado um e-mail válido
                           
                               <span class="step-duration">
-                               1s
+                               5s
                               </span>
                             
                          
@@ -889,6 +803,11 @@ th {
                     
                       
 
+                      
+                        <a href="#error1_00" data-toggle="collapse">+ Show Error</a>
+                        <div id="error1_00" class="collapse">
+                          <pre class=info>function timed out after 5000 milliseconds</pre>
+                        </div>
                       
 
                       
@@ -903,17 +822,13 @@ th {
                     <p class="scenario-container">
                     
                       
-                        <span class="label label-success" title="Success"><i class="glyphicon glyphicon-ok"></i></span>
+                        <span class="label label-warning" title="Skipped"><i class="glyphicon glyphicon-minus"></i></span>
                       
                     
                       <span class="text">
                         <span class="keyword highlight">Quando </span>
                         cadastro esse e-mail
                           
-                              <span class="step-duration">
-                               1s
-                              </span>
-                            
                          
                             
                           
@@ -935,17 +850,13 @@ th {
                     <p class="scenario-container">
                     
                       
-                        <span class="label label-success" title="Success"><i class="glyphicon glyphicon-ok"></i></span>
+                        <span class="label label-warning" title="Skipped"><i class="glyphicon glyphicon-minus"></i></span>
                       
                     
                       <span class="text">
                         <span class="keyword highlight">Então </span>
                         visualizo a mensagem de cadastro realizado com sucesso
                           
-                              <span class="step-duration">
-                               2s
-                              </span>
-                            
                          
                             
                           
@@ -977,11 +888,11 @@ th {
                     <i class="glyphicon glyphicon-chevron-down"></i>
                     <b>Scenario:</b>Preencher campo com e-mail com e-mail ja cadastrado
                     <span class="label-container">
-                      <span class="label label-success" title="Passed">2</span>
+                      <span class="label label-success" title="Passed">3</span>
                       
                       
                       
-                      <span class="label label-danger" title="Failed">1</span>
+                      
                       
                     </span>
                   </a>
@@ -1059,7 +970,7 @@ th {
                     <p class="scenario-container">
                     
                       
-                        <span class="label label-danger" title="Failed"><i class="glyphicon glyphicon-remove"></i></span>
+                        <span class="label label-success" title="Success"><i class="glyphicon glyphicon-ok"></i></span>
                       
                     
                       <span class="text">
@@ -1077,32 +988,6 @@ th {
                     
                       
 
-                      
-                        <a href="#error1_12" data-toggle="collapse">+ Show Error</a>
-                        <div id="error1_12" class="collapse">
-                          <pre class=info>StaleElementReferenceError: stale element reference: element is not attached to the page document
-  (Session info: chrome=59.0.3071.115)
-  (Driver info: chromedriver=2.30.477690 (c53f4ad87510ee97b5c3425a14c0e79780cdf262),platform=Mac OS X 10.11.1 x86_64)
-    at Object.checkLegacyResponse (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/error.js:505:15)
-    at parseHttpResponse (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/http.js:509:13)
-    at doSend.then.response (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/http.js:440:13)
-    at process._tickCallback (internal/process/next_tick.js:109:7)
-From: Task: mouseMove
-    at Driver.schedule (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/webdriver.js:816:17)
-    at actions.map.action (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/actions.js:124:23)
-    at Array.map (native)
-    at /usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/actions.js:123:29
-    at TaskQueue.execute_ (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:2970:14)
-    at TaskQueue.executeNext_ (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:2953:27)
-    at asyncRun (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:2813:27)
-    at /usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:676:7
-From: Task: ActionSequence.perform
-    at ActionSequence.perform (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/actions.js:122:33)
-    at Helper.slowType (/Users/mateusmiranda/Desktop/Projetos/ProjetoLojaIntegrada/features/page_objects/Helper.js:9:21)
-    at Acessa.cadastrocompleto (/Users/mateusmiranda/Desktop/Projetos/ProjetoLojaIntegrada/features/page_objects/acessatelacadastro.po.js:37:23)
-    at World.(anonymous) (/Users/mateusmiranda/Desktop/Projetos/ProjetoLojaIntegrada/features/step_definitions/cadastropf.js:23:17)
-    at _combinedTickCallback (internal/process/next_tick.js:73:7)</pre>
-                        </div>
                       
 
                       
@@ -1405,9 +1290,9 @@ From: Task: ActionSequence.perform
         google.setOnLoadCallback(function() {drawChart({
                                                             "title" : "Scenarios",
                                                             "failed" : 1,
-                                                            "passed" : 5,
-                                                            "notdefined" : 0,
-                                                            "pending" : 1,
+                                                            "passed" : 3,
+                                                            "notdefined" : 3,
+                                                            "pending" : 0,
                                                             "skipped" : 0,
                                                             "ambiguous" : 0
                                                         })
