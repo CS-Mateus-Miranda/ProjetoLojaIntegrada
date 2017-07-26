@@ -4,62 +4,78 @@ chai.use(chaiAsPromised);
 let expect = chai.expect;
 
 const NewsLetter = require('../page_objects/newsletter.po.js');
-const Resultado = require('../page_objects/resultado.po.js');
+//const Resultado = require('../page_objects/resultado.po.js');
 
 module.exports = function() {
 
     const newsletter = new NewsLetter();
-    const resultado = new Resultado();
+    //const resultado = new Resultado();
 
-    // Contexto
-    this.Given(/^que eu esteja na home da Loja Integrada$/, {timeout: 10 * 1000 }, function (callback) {
+    // CENÁRIO 1
+    this.Given(/^que ainda não tenha cadastrado um e\-mail válido$/, function (callback) {
         newsletter.visit().then(callback);
-    });
-
-    // I
-    this.When(/^preencho o campo de e\-mail$/, function (callback) {
-        newsletter.newemail().then(callback);
-    });
-
-    // Todos
-    this.When(/^clico no botão de cadastro$/, function (callback) {
-        newsletter.clicarnobotaonewsletter().then(callback);
-    });
-
-    // I
+        });
+    // CENÁRIO 1
+    this.When(/^cadastro esse e\-mail$/, function (callback) {
+        newsletter.newemail().then(callback)
+        browser.driver.sleep(2000)
+        newsletter.clicarnobotaonewsletter().then(callback)
+        });
+    // CENÁRIO 1
     this.Then(/^visualizo a mensagem de cadastro realizado com sucesso$/, function (callback) {
-        browser.driver.sleep(2000);
-        expect(element(by.css('.icon-3x')).isDisplayed()).to.eventually.be.true.and.notify(callback);
+        var elm = element(by.css('.icon-3x'))
+        var EC = protractor.ExpectedConditions
+        browser.wait(EC.elementToBeClickable(elm), 10000)
+        expect(element(by.css('.icon-3x')).isDisplayed()).to.eventually.be.true.and.notify(callback)
     });
 
-    // II
-    this.When(/^preencho o campo de e\-mail com um e\-mail ja cadastrado$/, function (callback) { 
-        newsletter.preencheremail('miranda@miranda102.com').then(callback);
-    });
 
-    // II   
+    // CENÁRIO 2
+    this.Given(/^que eu ja tenha um e\-mail válido cadastrado$/, function (callback) {
+         newsletter.visit().then(callback)
+       });
+
+    // CENÁRIO 2
+    this.When(/^cadastro este e\-mail$/, function (callback) {
+        newsletter.preencheremail('miranda@miranda102.com').then(callback)
+        browser.driver.sleep(2000)
+        newsletter.clicarnobotaonewsletter().then(callback)
+       });   
+
+    // CENÁRIO 2   
     this.Then(/^visualizo a mensagem de e\-mail ja cadastrado$/, function (callback) {
-        //browser.driver.sleep(4000);
-        var elm = element(by.css('.text-error'));
+        var elm = element(by.css('.close'));
         var EC = protractor.ExpectedConditions;
         browser.wait(EC.elementToBeClickable(elm), 10000);
-        expect(element(by.css('.text-error')).isDisplayed()).to.eventually.be.true.and.notify(callback);
+        expect(element(by.css('.close')).isDisplayed()).to.eventually.be.true.and.notify(callback);
     });
 
-    // III
-    this.When(/^preencho o campo de e\-mail com formato inválido$/, function (callback) {
-        newsletter.preencheremail('miranda').then(callback);
-    });
 
-    // III
+    // CENÁRIO 3
+    this.Given(/^que eu esteja na home da Loja Integrada$/, function (callback) {
+         newsletter.visit().then(callback)
+      });
+
+
+    // CENÁRIO 3
+    this.When(/^cadastro um e\-mail inválido$/, function (callback) {
+         newsletter.preencheremail('miranda').then(callback)
+         browser.driver.sleep(2000)
+         newsletter.clicarnobotaonewsletter().then(callback)
+       });
+
+    // CENÁRIO 3
     this.Then(/^não consigo realizar o cadastro$/, {timeout: 10 * 1000} ,function (callback) {
-        browser.driver.sleep(2000);
+        //browser.driver.sleep(2000);
         expect(element(by.css('.icon-3x')).isDisplayed()).to.eventually.be.false.and.notify(callback);
     });
 
-    // IV
-    this.When(/^não preencho o campo de e\-mail$/, function (callback) {
-        newsletter.preencheremail('').then(callback);
-    });
+    
+    // CENÁRIO 4
+    this.When(/^não preencho o e\-mail$/, function (callback) {
+         newsletter.preencheremail('').then(callback)
+         browser.driver.sleep(2000)
+         newsletter.clicarnobotaonewsletter().then(callback)
+       });
 }
 
