@@ -142,9 +142,8 @@
             "keyword": "Dado ",
             "name": "que ainda não tenha cadastrado um e-mail válido",
             "result": {
-              "status": "failed",
-              "duration": 5005251481,
-              "error_message": "function timed out after 5000 milliseconds"
+              "status": "passed",
+              "duration": 3368932300
             },
             "line": 5,
             "match": {
@@ -156,7 +155,8 @@
             "keyword": "Quando ",
             "name": "cadastro esse e-mail",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 887506423
             },
             "line": 6,
             "match": {
@@ -168,7 +168,8 @@
             "keyword": "Então ",
             "name": "visualizo a mensagem de cadastro realizado com sucesso",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 2329849048
             },
             "line": 7,
             "match": {
@@ -191,7 +192,7 @@
             "name": "que eu ja tenha um e-mail válido cadastrado",
             "result": {
               "status": "passed",
-              "duration": 1198839651
+              "duration": 760028233
             },
             "line": 10,
             "match": {
@@ -204,7 +205,7 @@
             "name": "cadastro este e-mail",
             "result": {
               "status": "passed",
-              "duration": 208072764
+              "duration": 459942597
             },
             "line": 11,
             "match": {
@@ -217,7 +218,7 @@
             "name": "visualizo a mensagem de e-mail ja cadastrado",
             "result": {
               "status": "passed",
-              "duration": 2444673396
+              "duration": 2424241285
             },
             "line": 12,
             "match": {
@@ -240,7 +241,7 @@
             "name": "que eu esteja na home da Loja Integrada",
             "result": {
               "status": "passed",
-              "duration": 708378492
+              "duration": 715581951
             },
             "line": 15,
             "match": {
@@ -253,7 +254,7 @@
             "name": "cadastro um e-mail inválido",
             "result": {
               "status": "passed",
-              "duration": 79989014
+              "duration": 88624823
             },
             "line": 16,
             "match": {
@@ -266,7 +267,7 @@
             "name": "não consigo realizar o cadastro",
             "result": {
               "status": "passed",
-              "duration": 38213714
+              "duration": 52148244
             },
             "line": 17,
             "match": {
@@ -289,7 +290,7 @@
             "name": "que eu esteja na home da Loja Integrada",
             "result": {
               "status": "passed",
-              "duration": 716032003
+              "duration": 683822161
             },
             "line": 20,
             "match": {
@@ -302,7 +303,7 @@
             "name": "não preencho o e-mail",
             "result": {
               "status": "passed",
-              "duration": 62465343
+              "duration": 54062294
             },
             "line": 21,
             "match": {
@@ -315,7 +316,7 @@
             "name": "não consigo realizar o cadastro",
             "result": {
               "status": "passed",
-              "duration": 43028130
+              "duration": 27417691
             },
             "line": 22,
             "match": {

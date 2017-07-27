@@ -4,12 +4,10 @@ chai.use(chaiAsPromised);
 let expect = chai.expect;
 
 const NewsLetter = require('../page_objects/newsletter.po.js');
-//const Resultado = require('../page_objects/resultado.po.js');
 
 module.exports = function() {
 
     const newsletter = new NewsLetter();
-    //const resultado = new Resultado();
 
     // CENÁRIO 1
     this.Given(/^que ainda não tenha cadastrado um e\-mail válido$/, function (callback) {
