@@ -10,7 +10,7 @@ module.exports = function() {
     const newsletter = new NewsLetter();
 
     // CENÁRIO 1
-    this.Given(/^que ainda não tenha cadastrado um e\-mail válido$/, function (callback) {
+    this.Given(/^que ainda não tenha cadastrado um e\-mail válido$/, {timeout: 10 * 1000} ,function (callback) {
         newsletter.visit().then(callback);
         });
     // CENÁRIO 1
