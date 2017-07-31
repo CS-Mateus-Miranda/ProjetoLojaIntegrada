@@ -20,4 +20,3 @@ Funcionalidade: Cadastro de Newsletter
     Dado que eu esteja na home da Loja Integrada
     Quando não preencho o e-mail
     Então não consigo realizar o cadastro  
-
