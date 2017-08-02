@@ -7,20 +7,15 @@ class Acessa{
         return element(by.css('.bem-vindo')).click();
     }
 
-    stringaleatoria(){
-        var letras = '0123456789ABCDEFGHIJKLMNOPQRSTUVWXTZabcdefghiklmnopqrstuvwxyz';
-        var aleatorio = '';
-        for (var i = 0; i < 8; i++) {
-            var rnum = Math.floor(Math.random() * letras.length);
-            aleatorio += letras.substring(rnum, rnum + 1);
-        }
-        aleatorio += "@gmail.com";
-        return aleatorio;
+    newemail(){
+        var faker = require('faker.js-master');
+        var randomEmail = faker.internet.email();
+        return randonEmail;
     }
 
     digitaremail(){
-        //var generateemail = this.stringaleatoria();
-        this.email = element(by.css('#id_email.span8')).sendKeys('mateus@mateus.com');
+        this.generateemail = newemail();
+        this.email = element(by.css('#id_email.span8')).sendKeys(this.generateemail);
         return this.botaoconfirmar = element(by.css('#id_email+ .principal')).click();
     }
 

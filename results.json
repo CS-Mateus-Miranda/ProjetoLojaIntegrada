@@ -12,27 +12,38 @@
             "keyword": "Dado ",
             "name": "que eu não tenha cadastrado um cliente",
             "result": {
-              "status": "undefined"
+              "status": "failed",
+              "duration": 11035637,
+              "error_message": "ReferenceError: newemail is not defined\n    at Acessa.digitaremail (/Users/mateusmiranda/Documents/ProjetoLojaIntegrada/features/page_objects/acessatelacadastro.po.js:17:29)\n    at World.<anonymous> (/Users/mateusmiranda/Documents/ProjetoLojaIntegrada/features/step_definitions/cadastropf.js:18:18)\n    at _combinedTickCallback (internal/process/next_tick.js:73:7)\n    at process._tickCallback (internal/process/next_tick.js:104:9)"
             },
-            "line": 5
+            "line": 5,
+            "match": {
+              "location": "/Users/mateusmiranda/Documents/ProjetoLojaIntegrada/features/step_definitions/cadastropf.js:16"
+            }
           },
           {
             "arguments": [],
             "keyword": "Quando ",
             "name": "cadastro um novo cliente",
             "result": {
-              "status": "undefined"
+              "status": "skipped"
             },
-            "line": 6
+            "line": 6,
+            "match": {
+              "location": "/Users/mateusmiranda/Documents/ProjetoLojaIntegrada/features/step_definitions/cadastropf.js:21"
+            }
           },
           {
             "arguments": [],
             "keyword": "Então ",
             "name": "visualizo a mensagem de cadastro de cliente realizado com sucesso",
             "result": {
-              "status": "undefined"
+              "status": "skipped"
             },
-            "line": 7
+            "line": 7,
+            "match": {
+              "location": "/Users/mateusmiranda/Documents/ProjetoLojaIntegrada/features/step_definitions/cadastropf.js:25"
+            }
           }
         ],
         "tags": [],
@@ -49,27 +60,36 @@
             "keyword": "Dado ",
             "name": "que eu tenha cadastrado um cliente",
             "result": {
-              "status": "undefined"
+              "status": "pending"
             },
-            "line": 10
+            "line": 10,
+            "match": {
+              "location": "/Users/mateusmiranda/Documents/ProjetoLojaIntegrada/features/step_definitions/cadastropf.js:31"
+            }
           },
           {
             "arguments": [],
             "keyword": "Quando ",
             "name": "cadastro um cliente já existente",
             "result": {
-              "status": "undefined"
+              "status": "skipped"
             },
-            "line": 11
+            "line": 11,
+            "match": {
+              "location": "/Users/mateusmiranda/Documents/ProjetoLojaIntegrada/features/step_definitions/cadastropf.js:35"
+            }
           },
           {
             "arguments": [],
             "keyword": "Então ",
             "name": "visualizo a mensagem de cliente já cadastrado",
             "result": {
-              "status": "undefined"
+              "status": "skipped"
             },
-            "line": 12
+            "line": 12,
+            "match": {
+              "location": "/Users/mateusmiranda/Documents/ProjetoLojaIntegrada/features/step_definitions/cadastropf.js:39"
+            }
           }
         ],
         "tags": [],
@@ -86,27 +106,38 @@
             "keyword": "Dado ",
             "name": "que eu não tenha cadastrado um cliente",
             "result": {
-              "status": "undefined"
+              "status": "failed",
+              "duration": 3449135,
+              "error_message": "ReferenceError: newemail is not defined\n    at Acessa.digitaremail (/Users/mateusmiranda/Documents/ProjetoLojaIntegrada/features/page_objects/acessatelacadastro.po.js:17:29)\n    at World.<anonymous> (/Users/mateusmiranda/Documents/ProjetoLojaIntegrada/features/step_definitions/cadastropf.js:18:18)\n    at _combinedTickCallback (internal/process/next_tick.js:73:7)\n    at process._tickCallback (internal/process/next_tick.js:104:9)"
             },
-            "line": 15
+            "line": 15,
+            "match": {
+              "location": "/Users/mateusmiranda/Documents/ProjetoLojaIntegrada/features/step_definitions/cadastropf.js:16"
+            }
           },
           {
             "arguments": [],
             "keyword": "Quando ",
             "name": "cadastro um cliente sem preencher as informações",
             "result": {
-              "status": "undefined"
+              "status": "skipped"
             },
-            "line": 16
+            "line": 16,
+            "match": {
+              "location": "/Users/mateusmiranda/Documents/ProjetoLojaIntegrada/features/step_definitions/cadastropf.js:45"
+            }
           },
           {
             "arguments": [],
             "keyword": "Então ",
             "name": "não consigo realizar o cadastro com sucesso",
             "result": {
-              "status": "undefined"
+              "status": "skipped"
             },
-            "line": 17
+            "line": 17,
+            "match": {
+              "location": "/Users/mateusmiranda/Documents/ProjetoLojaIntegrada/features/step_definitions/cadastropf.js:49"
+            }
           }
         ],
         "tags": [],
@@ -134,7 +165,7 @@
             "name": "que ainda não tenha cadastrado um e-mail válido",
             "result": {
               "status": "passed",
-              "duration": 4693654373
+              "duration": 6415337203
             },
             "line": 5,
             "match": {
@@ -147,7 +178,7 @@
             "name": "cadastro esse e-mail",
             "result": {
               "status": "passed",
-              "duration": 535062251
+              "duration": 745820763
             },
             "line": 6,
             "match": {
@@ -160,7 +191,7 @@
             "name": "visualizo a mensagem de cadastro realizado com sucesso",
             "result": {
               "status": "passed",
-              "duration": 2322184391
+              "duration": 2542087431
             },
             "line": 7,
             "match": {
@@ -183,7 +214,7 @@
             "name": "que eu ja tenha um e-mail válido cadastrado",
             "result": {
               "status": "passed",
-              "duration": 771419290
+              "duration": 631991229
             },
             "line": 10,
             "match": {
@@ -196,7 +227,7 @@
             "name": "cadastro este e-mail",
             "result": {
               "status": "passed",
-              "duration": 134341884
+              "duration": 159283135
             },
             "line": 11,
             "match": {
@@ -209,7 +240,7 @@
             "name": "visualizo a mensagem de e-mail ja cadastrado",
             "result": {
               "status": "passed",
-              "duration": 2375886206
+              "duration": 2390846986
             },
             "line": 12,
             "match": {
@@ -232,7 +263,7 @@
             "name": "que eu esteja na home da Loja Integrada",
             "result": {
               "status": "passed",
-              "duration": 718473668
+              "duration": 663007223
             },
             "line": 15,
             "match": {
@@ -245,7 +276,7 @@
             "name": "cadastro um e-mail inválido",
             "result": {
               "status": "passed",
-              "duration": 88559300
+              "duration": 99071753
             },
             "line": 16,
             "match": {
@@ -258,7 +289,7 @@
             "name": "não consigo realizar o cadastro",
             "result": {
               "status": "passed",
-              "duration": 37018708
+              "duration": 40667738
             },
             "line": 17,
             "match": {
@@ -281,7 +312,7 @@
             "name": "que eu esteja na home da Loja Integrada",
             "result": {
               "status": "passed",
-              "duration": 716765882
+              "duration": 1006970403
             },
             "line": 20,
             "match": {
@@ -294,7 +325,7 @@
             "name": "não preencho o e-mail",
             "result": {
               "status": "passed",
-              "duration": 51763854
+              "duration": 51810960
             },
             "line": 21,
             "match": {
@@ -307,7 +338,7 @@
             "name": "não consigo realizar o cadastro",
             "result": {
               "status": "passed",
-              "duration": 30447978
+              "duration": 31209930
             },
             "line": 22,
             "match": {

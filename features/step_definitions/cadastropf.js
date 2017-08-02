@@ -14,7 +14,8 @@ module.exports = function() {
 
     // CENARIO 1
     this.Given(/^que eu não tenha cadastrado um cliente$/, function (callback) {
-         callback(null, 'pending');
+         inicial.visitar().then(callback)
+         inicial.digitaremail().then(callback)
        });
     // CENARIO 1
     this.When(/^cadastro um novo cliente$/, function (callback) {
@@ -39,10 +40,7 @@ module.exports = function() {
          callback(null, 'pending');
     });
 
-    // CENARIO 3
-    this.Given(/^que eu não tenha cadastrado um cliente$/, function (callback) {
-         callback(null, 'pending');
-       });
+
     // CENARIO 3
     this.When(/^cadastro um cliente sem preencher as informações$/, function (callback) {
          callback(null, 'pending');
