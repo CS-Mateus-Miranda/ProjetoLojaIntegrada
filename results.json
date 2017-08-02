@@ -30,12 +30,9 @@
             "keyword": "Então ",
             "name": "visualizo a mensagem de cadastro de cliente realizado com sucesso",
             "result": {
-              "status": "skipped"
+              "status": "undefined"
             },
-            "line": 7,
-            "match": {
-              "location": "/Users/mateusmiranda/Documents/ProjetoLojaIntegrada/features/step_definitions/cadastropf.js:34"
-            }
+            "line": 7
           }
         ],
         "tags": [],
@@ -70,12 +67,9 @@
             "keyword": "Então ",
             "name": "visualizo a mensagem de cliente já cadastrado",
             "result": {
-              "status": "skipped"
+              "status": "undefined"
             },
-            "line": 12,
-            "match": {
-              "location": "/Users/mateusmiranda/Documents/ProjetoLojaIntegrada/features/step_definitions/cadastropf.js:49"
-            }
+            "line": 12
           }
         ],
         "tags": [],
@@ -110,12 +104,9 @@
             "keyword": "Então ",
             "name": "não consigo realizar o cadastro com sucesso",
             "result": {
-              "status": "skipped"
+              "status": "undefined"
             },
-            "line": 17,
-            "match": {
-              "location": "/Users/mateusmiranda/Documents/ProjetoLojaIntegrada/features/step_definitions/cadastropf.js:62"
-            }
+            "line": 17
           }
         ],
         "tags": [],
@@ -143,7 +134,7 @@
             "name": "que ainda não tenha cadastrado um e-mail válido",
             "result": {
               "status": "passed",
-              "duration": 9383023328
+              "duration": 4693654373
             },
             "line": 5,
             "match": {
@@ -156,7 +147,7 @@
             "name": "cadastro esse e-mail",
             "result": {
               "status": "passed",
-              "duration": 788509715
+              "duration": 535062251
             },
             "line": 6,
             "match": {
@@ -169,7 +160,7 @@
             "name": "visualizo a mensagem de cadastro realizado com sucesso",
             "result": {
               "status": "passed",
-              "duration": 3352649138
+              "duration": 2322184391
             },
             "line": 7,
             "match": {
@@ -192,7 +183,7 @@
             "name": "que eu ja tenha um e-mail válido cadastrado",
             "result": {
               "status": "passed",
-              "duration": 1922328535
+              "duration": 771419290
             },
             "line": 10,
             "match": {
@@ -205,7 +196,7 @@
             "name": "cadastro este e-mail",
             "result": {
               "status": "passed",
-              "duration": 149503478
+              "duration": 134341884
             },
             "line": 11,
             "match": {
@@ -218,7 +209,7 @@
             "name": "visualizo a mensagem de e-mail ja cadastrado",
             "result": {
               "status": "passed",
-              "duration": 2399389091
+              "duration": 2375886206
             },
             "line": 12,
             "match": {
@@ -241,7 +232,7 @@
             "name": "que eu esteja na home da Loja Integrada",
             "result": {
               "status": "passed",
-              "duration": 721929144
+              "duration": 718473668
             },
             "line": 15,
             "match": {
@@ -254,7 +245,7 @@
             "name": "cadastro um e-mail inválido",
             "result": {
               "status": "passed",
-              "duration": 94969227
+              "duration": 88559300
             },
             "line": 16,
             "match": {
@@ -267,7 +258,7 @@
             "name": "não consigo realizar o cadastro",
             "result": {
               "status": "passed",
-              "duration": 46148126
+              "duration": 37018708
             },
             "line": 17,
             "match": {
@@ -290,7 +281,7 @@
             "name": "que eu esteja na home da Loja Integrada",
             "result": {
               "status": "passed",
-              "duration": 680609873
+              "duration": 716765882
             },
             "line": 20,
             "match": {
@@ -303,7 +294,7 @@
             "name": "não preencho o e-mail",
             "result": {
               "status": "passed",
-              "duration": 57083182
+              "duration": 51763854
             },
             "line": 21,
             "match": {
@@ -316,7 +307,7 @@
             "name": "não consigo realizar o cadastro",
             "result": {
               "status": "passed",
-              "duration": 31817819
+              "duration": 30447978
             },
             "line": 22,
             "match": {

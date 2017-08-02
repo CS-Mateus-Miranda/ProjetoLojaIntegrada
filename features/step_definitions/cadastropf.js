@@ -12,60 +12,45 @@ module.exports = function() {
     const inicial = new Inicial();
     const cadastro = new Cadastro();
 
-    // Contexto
-    this.Given(/^que estou na tela de cadastro de pessoa física$/, {timeout: 1000 * 1000} ,function (callback) {
-        inicial.visitar().then(callback);
-    });
-
-    // I
-    this.When(/^preencho todos os campos da tela de cadastro$/, {timeout: 1000 * 1000},function (callback) {
-        inicial.digitaremail().then(callback); // Digita e-mail na primeira tela e clica no botao de cadastro
-        inicial.cadastrocompleto().then(callback);
-        //browser.driver.sleep(5000);
-    });
-
-    // Todos
-    this.When(/^clico no botão de cadastro de cliente$/, function (callback) {
-        inicial.clickCadastro().then(callback);
-        //callback(null, 'pending');
-    });
-
-    // I
+    // CENARIO 1
+    this.Given(/^que eu não tenha cadastrado um cliente$/, function (callback) {
+         callback(null, 'pending');
+       });
+    // CENARIO 1
+    this.When(/^cadastro um novo cliente$/, function (callback) {
+         callback(null, 'pending');
+       });
+    // CENARIO 1
     this.Then(/^visualizo a mensagem de cadastro de cliente realizado com sucesso$/, function (callback) {
-        callback(null, 'pending');
+         callback(null, 'pending');
     });
+    
 
-    // II
-    this.When(/^preencho o campo de e\-mail com um e\-mail já cadastrado$/, function (callback) {
-        inicial.emailjacadastrado().then(callback);
-    });
-
-    // II
-    this.When(/^clico no botão cadastrar$/, function (callback) {
-        inicial.clicarbotaocadastrar().then(callback);
-    });
-
-    // II
+    // CENARIO 2
+    this.Given(/^que eu tenha cadastrado um cliente$/, function (callback) {
+         callback(null, 'pending');
+       });
+    // CENARIO 2
+    this.When(/^cadastro um cliente já existente$/, function (callback) {
+         callback(null, 'pending');
+       });
+    // CENARIO 2
     this.Then(/^visualizo a mensagem de cliente já cadastrado$/, function (callback) {
-        browser.driver.sleep(2000);
-        expect(element(by.css('.close')).isDisplayed()).to.eventually.be.true.and.notify(callback);
-        //callback(null, 'pending');
+         callback(null, 'pending');
     });
 
-    // III
-    this.When(/^não preencho os campos obrigatórios$/, function (callback) {
-        inicial.digitaremail().then(callback);
-        //callback(null, 'pending');
-    });
-
-    // III
+    // CENARIO 3
+    this.Given(/^que eu não tenha cadastrado um cliente$/, function (callback) {
+         callback(null, 'pending');
+       });
+    // CENARIO 3
+    this.When(/^cadastro um cliente sem preencher as informações$/, function (callback) {
+         callback(null, 'pending');
+       });
+    // CENARIO 3
     this.Then(/^não consigo realizar o cadastro com sucesso$/, function (callback) {
-        var elm = element(by.id('id_tipo_0'));
-        var EC = protractor.ExpectedConditions;
-        browser.wait(EC.elementToBeClickable(elm), 10000);
-        //elm.click();
-        expect(element(by.id('id_tipo_0')).isDisplayed()).to.eventually.be.true.and.notify(callback);
-        //callback(null, 'pending');
+         callback(null, 'pending');
     });
+
     
 }

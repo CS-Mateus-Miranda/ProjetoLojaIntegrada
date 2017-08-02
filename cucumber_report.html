@@ -243,7 +243,7 @@ th {
 
     <div class="container">
 
-      <div class="generated-on">Fri Jul 28 2017 14:27:41 GMT-0300 (BRT)</div>
+      <div class="generated-on">Wed Aug 02 2017 10:01:44 GMT-0300 (BRT)</div>
 
       <div class="row">
         <div class="chart col-lg-6 col-md-6" id="piechart_features"></div>
@@ -359,9 +359,9 @@ th {
                     <b>Scenario:</b>Realizar cadastro preenchendo todos os campos
                     <span class="label-container">
                       
-                      <span class="label label-info" title="Undefined">2</span>
+                      <span class="label label-info" title="Undefined">3</span>
                       
-                      <span class="label label-warning" title="Skipped">1</span>
+                      
                       
                       
                     </span>
@@ -446,7 +446,7 @@ this.Then(/^cadastro um novo cliente$/, function(callback) {
                     <p class="scenario-container">
                     
                       
-                        <span class="label label-warning" title="Skipped"><i class="glyphicon glyphicon-minus"></i></span>
+                        <span class="label label-info" title="Undefined"><i class="glyphicon glyphicon-flash"></i></span>
                       
                     
                       <span class="text">
@@ -458,6 +458,13 @@ this.Then(/^cadastro um novo cliente$/, function(callback) {
                           
                       </span>
                     
+                      
+                        <pre class=info>
+this.Then(/^visualizo a mensagem de cadastro de cliente realizado com sucesso$/, function(callback) {
+  // Write code here that turns the phrase above into concrete actions
+  callback(null, 'pending');
+});
+                        </pre>
                       
 
                       
@@ -485,9 +492,9 @@ this.Then(/^cadastro um novo cliente$/, function(callback) {
                     <b>Scenario:</b>Cadastrar e-mail já cadastrado
                     <span class="label-container">
                       
-                      <span class="label label-info" title="Undefined">2</span>
+                      <span class="label label-info" title="Undefined">3</span>
                       
-                      <span class="label label-warning" title="Skipped">1</span>
+                      
                       
                       
                     </span>
@@ -572,7 +579,7 @@ this.Then(/^cadastro um cliente já existente$/, function(callback) {
                     <p class="scenario-container">
                     
                       
-                        <span class="label label-warning" title="Skipped"><i class="glyphicon glyphicon-minus"></i></span>
+                        <span class="label label-info" title="Undefined"><i class="glyphicon glyphicon-flash"></i></span>
                       
                     
                       <span class="text">
@@ -584,6 +591,13 @@ this.Then(/^cadastro um cliente já existente$/, function(callback) {
                           
                       </span>
                     
+                      
+                        <pre class=info>
+this.Then(/^visualizo a mensagem de cliente já cadastrado$/, function(callback) {
+  // Write code here that turns the phrase above into concrete actions
+  callback(null, 'pending');
+});
+                        </pre>
                       
 
                       
@@ -611,9 +625,9 @@ this.Then(/^cadastro um cliente já existente$/, function(callback) {
                     <b>Scenario:</b>Cadastrar sem preencher os campos obrigatórios
                     <span class="label-container">
                       
-                      <span class="label label-info" title="Undefined">2</span>
+                      <span class="label label-info" title="Undefined">3</span>
                       
-                      <span class="label label-warning" title="Skipped">1</span>
+                      
                       
                       
                     </span>
@@ -698,7 +712,7 @@ this.Then(/^cadastro um cliente sem preencher as informações$/, function(callb
                     <p class="scenario-container">
                     
                       
-                        <span class="label label-warning" title="Skipped"><i class="glyphicon glyphicon-minus"></i></span>
+                        <span class="label label-info" title="Undefined"><i class="glyphicon glyphicon-flash"></i></span>
                       
                     
                       <span class="text">
@@ -710,6 +724,13 @@ this.Then(/^cadastro um cliente sem preencher as informações$/, function(callb
                           
                       </span>
                     
+                      
+                        <pre class=info>
+this.Then(/^não consigo realizar o cadastro com sucesso$/, function(callback) {
+  // Write code here that turns the phrase above into concrete actions
+  callback(null, 'pending');
+});
+                        </pre>
                       
 
                       
@@ -793,7 +814,7 @@ this.Then(/^cadastro um cliente sem preencher as informações$/, function(callb
                         que ainda não tenha cadastrado um e-mail válido
                           
                               <span class="step-duration">
-                               9s
+                               5s
                               </span>
                             
                          
@@ -857,7 +878,7 @@ this.Then(/^cadastro um cliente sem preencher as informações$/, function(callb
                         visualizo a mensagem de cadastro realizado com sucesso
                           
                               <span class="step-duration">
-                               3s
+                               2s
                               </span>
                             
                          
@@ -917,7 +938,7 @@ this.Then(/^cadastro um cliente sem preencher as informações$/, function(callb
                         que eu ja tenha um e-mail válido cadastrado
                           
                               <span class="step-duration">
-                               2s
+                               1s
                               </span>
                             
                          
