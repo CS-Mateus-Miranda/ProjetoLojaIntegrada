@@ -14,8 +14,9 @@ class Acessa{
     }
 
     digitaremail(){
-        this.generateemail = newemail();
-        this.email = element(by.css('#id_email.span8')).sendKeys(this.generateemail);
+        var faker = require('faker.js-master');
+        var randomEmail = faker.internet.email();
+        this.email = element(by.css('#id_email.span8')).sendKeys(this.randomEmail);
         return this.botaoconfirmar = element(by.css('#id_email+ .principal')).click();
     }
 

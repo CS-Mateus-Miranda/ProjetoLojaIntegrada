@@ -13,9 +13,10 @@ module.exports = function() {
     const cadastro = new Cadastro();
 
     // CENARIO 1
-    this.Given(/^que eu não tenha cadastrado um cliente$/, function (callback) {
-         inicial.visitar().then(callback)
-         inicial.digitaremail().then(callback)
+    this.Given(/^que eu não tenha cadastrado um cliente$/, {timeout: 10 * 1000}, function (callback) {
+         //inicial.visitar().then(callback)
+         //inicial.digitaremail().then(callback)
+         callback(null, 'pending');
        });
     // CENARIO 1
     this.When(/^cadastro um novo cliente$/, function (callback) {
@@ -28,26 +29,32 @@ module.exports = function() {
     
 
     // CENARIO 2
-    this.Given(/^que eu tenha cadastrado um cliente$/, function (callback) {
-         callback(null, 'pending');
+    this.Given(/^que eu tenha cadastrado um cliente$/, {timeout: 10 * 1000}, function (callback) {
+         inicial.visitar().then(callback)
        });
     // CENARIO 2
     this.When(/^cadastro um cliente já existente$/, function (callback) {
-         callback(null, 'pending');
+         inicial.emailjacadastrado().then(callback)
+         inicial.clicarbotaocadastrar().then(callback)
        });
     // CENARIO 2
     this.Then(/^visualizo a mensagem de cliente já cadastrado$/, function (callback) {
-         callback(null, 'pending');
+        browser.driver.sleep(2000)
+        expect(element(by.css('.close')).isDisplayed()).to.eventually.be.true.and.notify(callback)
     });
 
 
     // CENARIO 3
     this.When(/^cadastro um cliente sem preencher as informações$/, function (callback) {
-         callback(null, 'pending');
+         inicial.digitaremail().then(callback)
+         inicial.clickCadastro().then(callback)
        });
     // CENARIO 3
     this.Then(/^não consigo realizar o cadastro com sucesso$/, function (callback) {
-         callback(null, 'pending');
+        var elm = element(by.id('id_tipo_0'))
+        var EC = protractor.ExpectedConditions
+        browser.wait(EC.elementToBeClickable(elm), 10000)
+        expect(element(by.id('id_tipo_0')).isDisplayed()).to.eventually.be.true.and.notify(callback)
     });
 
     

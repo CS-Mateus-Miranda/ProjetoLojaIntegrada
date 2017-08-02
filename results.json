@@ -12,9 +12,8 @@
             "keyword": "Dado ",
             "name": "que eu não tenha cadastrado um cliente",
             "result": {
-              "status": "failed",
-              "duration": 11035637,
-              "error_message": "ReferenceError: newemail is not defined\n    at Acessa.digitaremail (/Users/mateusmiranda/Documents/ProjetoLojaIntegrada/features/page_objects/acessatelacadastro.po.js:17:29)\n    at World.<anonymous> (/Users/mateusmiranda/Documents/ProjetoLojaIntegrada/features/step_definitions/cadastropf.js:18:18)\n    at _combinedTickCallback (internal/process/next_tick.js:73:7)\n    at process._tickCallback (internal/process/next_tick.js:104:9)"
+              "status": "passed",
+              "duration": 5744778344
             },
             "line": 5,
             "match": {
@@ -26,11 +25,11 @@
             "keyword": "Quando ",
             "name": "cadastro um novo cliente",
             "result": {
-              "status": "skipped"
+              "status": "pending"
             },
             "line": 6,
             "match": {
-              "location": "/Users/mateusmiranda/Documents/ProjetoLojaIntegrada/features/step_definitions/cadastropf.js:21"
+              "location": "/Users/mateusmiranda/Documents/ProjetoLojaIntegrada/features/step_definitions/cadastropf.js:22"
             }
           },
           {
@@ -42,7 +41,7 @@
             },
             "line": 7,
             "match": {
-              "location": "/Users/mateusmiranda/Documents/ProjetoLojaIntegrada/features/step_definitions/cadastropf.js:25"
+              "location": "/Users/mateusmiranda/Documents/ProjetoLojaIntegrada/features/step_definitions/cadastropf.js:26"
             }
           }
         ],
@@ -60,11 +59,13 @@
             "keyword": "Dado ",
             "name": "que eu tenha cadastrado um cliente",
             "result": {
-              "status": "pending"
+              "status": "failed",
+              "duration": 35307675,
+              "error_message": "TypeError: each key must be a number of string; got undefined\n    at keys.forEach.key (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/webdriver.js:2072:21)\n    at Array.forEach (native)\n    at Promise.all.then.keys (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/webdriver.js:2067:16)\n    at process._tickCallback (internal/process/next_tick.js:109:7)\nFrom: Task: WebElement.sendKeys()\n    at Driver.schedule (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/webdriver.js:816:17)\n    at WebElement.schedule_ (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/webdriver.js:1921:25)\n    at WebElement.sendKeys (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/webdriver.js:2084:19)\n    at actionFn (/usr/local/lib/node_modules/protractor/lib/element.ts:94:34)\n    at Array.map (native)\n    at actionResults.getWebElements.then (/usr/local/lib/node_modules/protractor/lib/element.ts:484:67)\n    at ManagedPromise.invokeCallback_ (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:1366:14)\n    at TaskQueue.execute_ (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:2970:14)\n    at TaskQueue.executeNext_ (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:2953:27)\n    at asyncRun (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:2813:27)Error\n    at ElementArrayFinder.applyAction_ (/usr/local/lib/node_modules/protractor/lib/element.ts:482:23)\n    at ElementArrayFinder.(anonymous function).args [as sendKeys] (/usr/local/lib/node_modules/protractor/lib/element.ts:96:21)\n    at ElementFinder.(anonymous function).args [as sendKeys] (/usr/local/lib/node_modules/protractor/lib/element.ts:873:14)\n    at Acessa.digitaremail (/Users/mateusmiranda/Documents/ProjetoLojaIntegrada/features/page_objects/acessatelacadastro.po.js:19:57)\n    at World.<anonymous> (/Users/mateusmiranda/Documents/ProjetoLojaIntegrada/features/step_definitions/cadastropf.js:18:18)"
             },
             "line": 10,
             "match": {
-              "location": "/Users/mateusmiranda/Documents/ProjetoLojaIntegrada/features/step_definitions/cadastropf.js:31"
+              "location": "/Users/mateusmiranda/Documents/ProjetoLojaIntegrada/features/step_definitions/cadastropf.js:32"
             }
           },
           {
@@ -76,7 +77,7 @@
             },
             "line": 11,
             "match": {
-              "location": "/Users/mateusmiranda/Documents/ProjetoLojaIntegrada/features/step_definitions/cadastropf.js:35"
+              "location": "/Users/mateusmiranda/Documents/ProjetoLojaIntegrada/features/step_definitions/cadastropf.js:36"
             }
           },
           {
@@ -88,7 +89,7 @@
             },
             "line": 12,
             "match": {
-              "location": "/Users/mateusmiranda/Documents/ProjetoLojaIntegrada/features/step_definitions/cadastropf.js:39"
+              "location": "/Users/mateusmiranda/Documents/ProjetoLojaIntegrada/features/step_definitions/cadastropf.js:41"
             }
           }
         ],
@@ -106,9 +107,8 @@
             "keyword": "Dado ",
             "name": "que eu não tenha cadastrado um cliente",
             "result": {
-              "status": "failed",
-              "duration": 3449135,
-              "error_message": "ReferenceError: newemail is not defined\n    at Acessa.digitaremail (/Users/mateusmiranda/Documents/ProjetoLojaIntegrada/features/page_objects/acessatelacadastro.po.js:17:29)\n    at World.<anonymous> (/Users/mateusmiranda/Documents/ProjetoLojaIntegrada/features/step_definitions/cadastropf.js:18:18)\n    at _combinedTickCallback (internal/process/next_tick.js:73:7)\n    at process._tickCallback (internal/process/next_tick.js:104:9)"
+              "status": "passed",
+              "duration": 2033845435
             },
             "line": 15,
             "match": {
@@ -120,11 +120,13 @@
             "keyword": "Quando ",
             "name": "cadastro um cliente sem preencher as informações",
             "result": {
-              "status": "skipped"
+              "status": "failed",
+              "duration": 19029190,
+              "error_message": "TypeError: each key must be a number of string; got undefined\n    at keys.forEach.key (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/webdriver.js:2072:21)\n    at Array.forEach (native)\n    at Promise.all.then.keys (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/webdriver.js:2067:16)\n    at process._tickCallback (internal/process/next_tick.js:109:7)\nFrom: Task: WebElement.sendKeys()\n    at Driver.schedule (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/webdriver.js:816:17)\n    at WebElement.schedule_ (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/webdriver.js:1921:25)\n    at WebElement.sendKeys (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/webdriver.js:2084:19)\n    at actionFn (/usr/local/lib/node_modules/protractor/lib/element.ts:94:34)\n    at Array.map (native)\n    at actionResults.getWebElements.then (/usr/local/lib/node_modules/protractor/lib/element.ts:484:67)\n    at ManagedPromise.invokeCallback_ (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:1366:14)\n    at TaskQueue.execute_ (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:2970:14)\n    at TaskQueue.executeNext_ (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:2953:27)\n    at asyncRun (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:2813:27)Error\n    at ElementArrayFinder.applyAction_ (/usr/local/lib/node_modules/protractor/lib/element.ts:482:23)\n    at ElementArrayFinder.(anonymous function).args [as sendKeys] (/usr/local/lib/node_modules/protractor/lib/element.ts:96:21)\n    at ElementFinder.(anonymous function).args [as sendKeys] (/usr/local/lib/node_modules/protractor/lib/element.ts:873:14)\n    at Acessa.digitaremail (/Users/mateusmiranda/Documents/ProjetoLojaIntegrada/features/page_objects/acessatelacadastro.po.js:19:57)\n    at World.<anonymous> (/Users/mateusmiranda/Documents/ProjetoLojaIntegrada/features/step_definitions/cadastropf.js:18:18)"
             },
             "line": 16,
             "match": {
-              "location": "/Users/mateusmiranda/Documents/ProjetoLojaIntegrada/features/step_definitions/cadastropf.js:45"
+              "location": "/Users/mateusmiranda/Documents/ProjetoLojaIntegrada/features/step_definitions/cadastropf.js:48"
             }
           },
           {
@@ -136,7 +138,7 @@
             },
             "line": 17,
             "match": {
-              "location": "/Users/mateusmiranda/Documents/ProjetoLojaIntegrada/features/step_definitions/cadastropf.js:49"
+              "location": "/Users/mateusmiranda/Documents/ProjetoLojaIntegrada/features/step_definitions/cadastropf.js:53"
             }
           }
         ],
@@ -165,7 +167,7 @@
             "name": "que ainda não tenha cadastrado um e-mail válido",
             "result": {
               "status": "passed",
-              "duration": 6415337203
+              "duration": 1204990358
             },
             "line": 5,
             "match": {
@@ -178,7 +180,7 @@
             "name": "cadastro esse e-mail",
             "result": {
               "status": "passed",
-              "duration": 745820763
+              "duration": 216436908
             },
             "line": 6,
             "match": {
@@ -191,7 +193,7 @@
             "name": "visualizo a mensagem de cadastro realizado com sucesso",
             "result": {
               "status": "passed",
-              "duration": 2542087431
+              "duration": 2324708177
             },
             "line": 7,
             "match": {
@@ -214,7 +216,7 @@
             "name": "que eu ja tenha um e-mail válido cadastrado",
             "result": {
               "status": "passed",
-              "duration": 631991229
+              "duration": 630516429
             },
             "line": 10,
             "match": {
@@ -227,7 +229,7 @@
             "name": "cadastro este e-mail",
             "result": {
               "status": "passed",
-              "duration": 159283135
+              "duration": 287785887
             },
             "line": 11,
             "match": {
@@ -240,7 +242,7 @@
             "name": "visualizo a mensagem de e-mail ja cadastrado",
             "result": {
               "status": "passed",
-              "duration": 2390846986
+              "duration": 2397878884
             },
             "line": 12,
             "match": {
@@ -263,7 +265,7 @@
             "name": "que eu esteja na home da Loja Integrada",
             "result": {
               "status": "passed",
-              "duration": 663007223
+              "duration": 701467549
             },
             "line": 15,
             "match": {
@@ -276,7 +278,7 @@
             "name": "cadastro um e-mail inválido",
             "result": {
               "status": "passed",
-              "duration": 99071753
+              "duration": 101700327
             },
             "line": 16,
             "match": {
@@ -289,7 +291,7 @@
             "name": "não consigo realizar o cadastro",
             "result": {
               "status": "passed",
-              "duration": 40667738
+              "duration": 42791639
             },
             "line": 17,
             "match": {
@@ -312,7 +314,7 @@
             "name": "que eu esteja na home da Loja Integrada",
             "result": {
               "status": "passed",
-              "duration": 1006970403
+              "duration": 625767151
             },
             "line": 20,
             "match": {
@@ -325,7 +327,7 @@
             "name": "não preencho o e-mail",
             "result": {
               "status": "passed",
-              "duration": 51810960
+              "duration": 55886544
             },
             "line": 21,
             "match": {
@@ -338,7 +340,7 @@
             "name": "não consigo realizar o cadastro",
             "result": {
               "status": "passed",
-              "duration": 31209930
+              "duration": 31188164
             },
             "line": 22,
             "match": {
