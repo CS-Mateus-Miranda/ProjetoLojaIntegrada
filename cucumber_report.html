@@ -234,8 +234,8 @@ th {
           <a class="navbar-brand">Cucumberjs Report</a>
           <div class="project-name visible-md visible-lg">testes_loja_integrada</div>
           <div class="label-container">
-            <span class="label label-success" title=scenarios>Passed: 4</span>
-            <span class="label label-danger" title=scenarios>Failed: 2</span>
+            <span class="label label-success" title=scenarios>Passed: 5</span>
+            <span class="label label-danger" title=scenarios>Failed: 0</span>
           </div>
         </div>
       </div>
@@ -243,7 +243,7 @@ th {
 
     <div class="container">
 
-      <div class="generated-on">Wed Aug 02 2017 17:48:32 GMT-0300 (BRT)</div>
+      <div class="generated-on">Thu Aug 03 2017 10:48:28 GMT-0300 (BRT)</div>
 
       <div class="row">
         <div class="chart col-lg-6 col-md-6" id="piechart_features"></div>
@@ -334,10 +334,10 @@ th {
             <i class="glyphicon glyphicon-chevron-down"></i>
             <b>Funcionalidade:</b>Cadastro de Pessoa Física
             <span class="label-container">
+              <span class="label label-success" title="Passed">1</span>
               
-              <span class="label label-danger" title="Failed">2</span>
               
-              <span class="label label-default" title="Pending">1</span>
+              <span class="label label-default" title="Pending">2</span>
               
               
             </span> 
@@ -358,10 +358,10 @@ th {
                     <i class="glyphicon glyphicon-chevron-down"></i>
                     <b>Scenario:</b>Realizar cadastro preenchendo todos os campos
                     <span class="label-container">
-                      <span class="label label-success" title="Passed">1</span>
+                      
                       
                       <span class="label label-default" title="Pending">1</span>
-                      <span class="label label-warning" title="Skipped">1</span>
+                      <span class="label label-warning" title="Skipped">2</span>
                       
                       
                     </span>
@@ -376,17 +376,13 @@ th {
                     <p class="scenario-container">
                     
                       
-                        <span class="label label-success" title="Success"><i class="glyphicon glyphicon-ok"></i></span>
-                      
+                        <span class="label label-default" title="Pending"><i class="glyphicon glyphicon-exclamation-sign"></i></span>
+                       
                     
                       <span class="text">
                         <span class="keyword highlight">Dado </span>
                         que eu não tenha cadastrado um cliente
                           
-                              <span class="step-duration">
-                               6s
-                              </span>
-                            
                          
                             
                           
@@ -408,8 +404,8 @@ th {
                     <p class="scenario-container">
                     
                       
-                        <span class="label label-default" title="Pending"><i class="glyphicon glyphicon-exclamation-sign"></i></span>
-                       
+                        <span class="label label-warning" title="Skipped"><i class="glyphicon glyphicon-minus"></i></span>
+                      
                     
                       <span class="text">
                         <span class="keyword highlight">Quando </span>
@@ -474,11 +470,11 @@ th {
                     <i class="glyphicon glyphicon-chevron-down"></i>
                     <b>Scenario:</b>Cadastrar e-mail já cadastrado
                     <span class="label-container">
+                      <span class="label label-success" title="Passed">3</span>
                       
                       
                       
-                      <span class="label label-warning" title="Skipped">2</span>
-                      <span class="label label-danger" title="Failed">1</span>
+                      
                       
                     </span>
                   </a>
@@ -492,12 +488,44 @@ th {
                     <p class="scenario-container">
                     
                       
-                        <span class="label label-danger" title="Failed"><i class="glyphicon glyphicon-remove"></i></span>
+                        <span class="label label-success" title="Success"><i class="glyphicon glyphicon-ok"></i></span>
                       
                     
                       <span class="text">
                         <span class="keyword highlight">Dado </span>
                         que eu tenha cadastrado um cliente
+                          
+                              <span class="step-duration">
+                               6s
+                              </span>
+                            
+                         
+                            
+                          
+                      </span>
+                    
+                      
+
+                      
+
+                      
+
+                       
+
+                    
+                    </p>
+                    
+                  
+                    
+                    <p class="scenario-container">
+                    
+                      
+                        <span class="label label-success" title="Success"><i class="glyphicon glyphicon-ok"></i></span>
+                      
+                    
+                      <span class="text">
+                        <span class="keyword highlight">Quando </span>
+                        cadastro um cliente já existente
                           
                               <span class="step-duration">
                                0s
@@ -511,31 +539,6 @@ th {
                       
 
                       
-                        <a href="#error0_10" data-toggle="collapse">+ Show Error</a>
-                        <div id="error0_10" class="collapse">
-                          <pre class=info>TypeError: each key must be a number of string; got undefined
-    at keys.forEach.key (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/webdriver.js:2072:21)
-    at Array.forEach (native)
-    at Promise.all.then.keys (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/webdriver.js:2067:16)
-    at process._tickCallback (internal/process/next_tick.js:109:7)
-From: Task: WebElement.sendKeys()
-    at Driver.schedule (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/webdriver.js:816:17)
-    at WebElement.schedule_ (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/webdriver.js:1921:25)
-    at WebElement.sendKeys (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/webdriver.js:2084:19)
-    at actionFn (/usr/local/lib/node_modules/protractor/lib/element.ts:94:34)
-    at Array.map (native)
-    at actionResults.getWebElements.then (/usr/local/lib/node_modules/protractor/lib/element.ts:484:67)
-    at ManagedPromise.invokeCallback_ (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:1366:14)
-    at TaskQueue.execute_ (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:2970:14)
-    at TaskQueue.executeNext_ (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:2953:27)
-    at asyncRun (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:2813:27)Error
-    at ElementArrayFinder.applyAction_ (/usr/local/lib/node_modules/protractor/lib/element.ts:482:23)
-    at ElementArrayFinder.(anonymous function).args [as sendKeys] (/usr/local/lib/node_modules/protractor/lib/element.ts:96:21)
-    at ElementFinder.(anonymous function).args [as sendKeys] (/usr/local/lib/node_modules/protractor/lib/element.ts:873:14)
-    at Acessa.digitaremail (/Users/mateusmiranda/Documents/ProjetoLojaIntegrada/features/page_objects/acessatelacadastro.po.js:19:57)
-    at World.(anonymous) (/Users/mateusmiranda/Documents/ProjetoLojaIntegrada/features/step_definitions/cadastropf.js:18:18)</pre>
-                        </div>
-                      
 
                       
 
@@ -549,41 +552,17 @@ From: Task: WebElement.sendKeys()
                     <p class="scenario-container">
                     
                       
-                        <span class="label label-warning" title="Skipped"><i class="glyphicon glyphicon-minus"></i></span>
-                      
-                    
-                      <span class="text">
-                        <span class="keyword highlight">Quando </span>
-                        cadastro um cliente já existente
-                          
-                         
-                            
-                          
-                      </span>
-                    
-                      
-
-                      
-
-                      
-
-                       
-
-                    
-                    </p>
-                    
-                  
-                    
-                    <p class="scenario-container">
-                    
-                      
-                        <span class="label label-warning" title="Skipped"><i class="glyphicon glyphicon-minus"></i></span>
+                        <span class="label label-success" title="Success"><i class="glyphicon glyphicon-ok"></i></span>
                       
                     
                       <span class="text">
                         <span class="keyword highlight">Então </span>
                         visualizo a mensagem de cliente já cadastrado
                           
+                              <span class="step-duration">
+                               2s
+                              </span>
+                            
                          
                             
                           
@@ -615,11 +594,11 @@ From: Task: WebElement.sendKeys()
                     <i class="glyphicon glyphicon-chevron-down"></i>
                     <b>Scenario:</b>Cadastrar sem preencher os campos obrigatórios
                     <span class="label-container">
-                      <span class="label label-success" title="Passed">1</span>
                       
                       
-                      <span class="label label-warning" title="Skipped">1</span>
-                      <span class="label label-danger" title="Failed">1</span>
+                      <span class="label label-default" title="Pending">1</span>
+                      <span class="label label-warning" title="Skipped">2</span>
+                      
                       
                     </span>
                   </a>
@@ -633,17 +612,13 @@ From: Task: WebElement.sendKeys()
                     <p class="scenario-container">
                     
                       
-                        <span class="label label-success" title="Success"><i class="glyphicon glyphicon-ok"></i></span>
-                      
+                        <span class="label label-default" title="Pending"><i class="glyphicon glyphicon-exclamation-sign"></i></span>
+                       
                     
                       <span class="text">
                         <span class="keyword highlight">Dado </span>
                         que eu não tenha cadastrado um cliente
                           
-                              <span class="step-duration">
-                               2s
-                              </span>
-                            
                          
                             
                           
@@ -665,17 +640,13 @@ From: Task: WebElement.sendKeys()
                     <p class="scenario-container">
                     
                       
-                        <span class="label label-danger" title="Failed"><i class="glyphicon glyphicon-remove"></i></span>
+                        <span class="label label-warning" title="Skipped"><i class="glyphicon glyphicon-minus"></i></span>
                       
                     
                       <span class="text">
                         <span class="keyword highlight">Quando </span>
                         cadastro um cliente sem preencher as informações
                           
-                              <span class="step-duration">
-                               0s
-                              </span>
-                            
                          
                             
                           
@@ -683,31 +654,6 @@ From: Task: WebElement.sendKeys()
                     
                       
 
-                      
-                        <a href="#error0_21" data-toggle="collapse">+ Show Error</a>
-                        <div id="error0_21" class="collapse">
-                          <pre class=info>TypeError: each key must be a number of string; got undefined
-    at keys.forEach.key (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/webdriver.js:2072:21)
-    at Array.forEach (native)
-    at Promise.all.then.keys (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/webdriver.js:2067:16)
-    at process._tickCallback (internal/process/next_tick.js:109:7)
-From: Task: WebElement.sendKeys()
-    at Driver.schedule (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/webdriver.js:816:17)
-    at WebElement.schedule_ (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/webdriver.js:1921:25)
-    at WebElement.sendKeys (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/webdriver.js:2084:19)
-    at actionFn (/usr/local/lib/node_modules/protractor/lib/element.ts:94:34)
-    at Array.map (native)
-    at actionResults.getWebElements.then (/usr/local/lib/node_modules/protractor/lib/element.ts:484:67)
-    at ManagedPromise.invokeCallback_ (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:1366:14)
-    at TaskQueue.execute_ (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:2970:14)
-    at TaskQueue.executeNext_ (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:2953:27)
-    at asyncRun (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:2813:27)Error
-    at ElementArrayFinder.applyAction_ (/usr/local/lib/node_modules/protractor/lib/element.ts:482:23)
-    at ElementArrayFinder.(anonymous function).args [as sendKeys] (/usr/local/lib/node_modules/protractor/lib/element.ts:96:21)
-    at ElementFinder.(anonymous function).args [as sendKeys] (/usr/local/lib/node_modules/protractor/lib/element.ts:873:14)
-    at Acessa.digitaremail (/Users/mateusmiranda/Documents/ProjetoLojaIntegrada/features/page_objects/acessatelacadastro.po.js:19:57)
-    at World.(anonymous) (/Users/mateusmiranda/Documents/ProjetoLojaIntegrada/features/step_definitions/cadastropf.js:18:18)</pre>
-                        </div>
                       
 
                       
@@ -849,7 +795,7 @@ From: Task: WebElement.sendKeys()
                         cadastro esse e-mail
                           
                               <span class="step-duration">
-                               0s
+                               1s
                               </span>
                             
                          
@@ -1309,17 +1255,17 @@ From: Task: WebElement.sendKeys()
         google.load("visualization", "1", {packages: ["corechart"]});
         google.setOnLoadCallback(function() {drawChart({
                                                             "title" : "Features",
-                                                            "failed" : 1,
-                                                            "passed" : 1,
+                                                            "failed" : 0,
+                                                            "passed" : 2,
                                                             "ambiguous" : 0
                                                         })
                                             });
         google.setOnLoadCallback(function() {drawChart({
                                                             "title" : "Scenarios",
-                                                            "failed" : 2,
-                                                            "passed" : 4,
+                                                            "failed" : 0,
+                                                            "passed" : 5,
                                                             "notdefined" : 0,
-                                                            "pending" : 1,
+                                                            "pending" : 2,
                                                             "skipped" : 0,
                                                             "ambiguous" : 0
                                                         })

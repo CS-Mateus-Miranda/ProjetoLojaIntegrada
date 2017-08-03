@@ -12,8 +12,7 @@
             "keyword": "Dado ",
             "name": "que eu não tenha cadastrado um cliente",
             "result": {
-              "status": "passed",
-              "duration": 5744778344
+              "status": "pending"
             },
             "line": 5,
             "match": {
@@ -25,7 +24,7 @@
             "keyword": "Quando ",
             "name": "cadastro um novo cliente",
             "result": {
-              "status": "pending"
+              "status": "skipped"
             },
             "line": 6,
             "match": {
@@ -59,9 +58,8 @@
             "keyword": "Dado ",
             "name": "que eu tenha cadastrado um cliente",
             "result": {
-              "status": "failed",
-              "duration": 35307675,
-              "error_message": "TypeError: each key must be a number of string; got undefined\n    at keys.forEach.key (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/webdriver.js:2072:21)\n    at Array.forEach (native)\n    at Promise.all.then.keys (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/webdriver.js:2067:16)\n    at process._tickCallback (internal/process/next_tick.js:109:7)\nFrom: Task: WebElement.sendKeys()\n    at Driver.schedule (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/webdriver.js:816:17)\n    at WebElement.schedule_ (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/webdriver.js:1921:25)\n    at WebElement.sendKeys (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/webdriver.js:2084:19)\n    at actionFn (/usr/local/lib/node_modules/protractor/lib/element.ts:94:34)\n    at Array.map (native)\n    at actionResults.getWebElements.then (/usr/local/lib/node_modules/protractor/lib/element.ts:484:67)\n    at ManagedPromise.invokeCallback_ (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:1366:14)\n    at TaskQueue.execute_ (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:2970:14)\n    at TaskQueue.executeNext_ (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:2953:27)\n    at asyncRun (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:2813:27)Error\n    at ElementArrayFinder.applyAction_ (/usr/local/lib/node_modules/protractor/lib/element.ts:482:23)\n    at ElementArrayFinder.(anonymous function).args [as sendKeys] (/usr/local/lib/node_modules/protractor/lib/element.ts:96:21)\n    at ElementFinder.(anonymous function).args [as sendKeys] (/usr/local/lib/node_modules/protractor/lib/element.ts:873:14)\n    at Acessa.digitaremail (/Users/mateusmiranda/Documents/ProjetoLojaIntegrada/features/page_objects/acessatelacadastro.po.js:19:57)\n    at World.<anonymous> (/Users/mateusmiranda/Documents/ProjetoLojaIntegrada/features/step_definitions/cadastropf.js:18:18)"
+              "status": "passed",
+              "duration": 5627663234
             },
             "line": 10,
             "match": {
@@ -73,7 +71,8 @@
             "keyword": "Quando ",
             "name": "cadastro um cliente já existente",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 210649652
             },
             "line": 11,
             "match": {
@@ -85,7 +84,8 @@
             "keyword": "Então ",
             "name": "visualizo a mensagem de cliente já cadastrado",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 2058441726
             },
             "line": 12,
             "match": {
@@ -107,8 +107,7 @@
             "keyword": "Dado ",
             "name": "que eu não tenha cadastrado um cliente",
             "result": {
-              "status": "passed",
-              "duration": 2033845435
+              "status": "pending"
             },
             "line": 15,
             "match": {
@@ -120,9 +119,7 @@
             "keyword": "Quando ",
             "name": "cadastro um cliente sem preencher as informações",
             "result": {
-              "status": "failed",
-              "duration": 19029190,
-              "error_message": "TypeError: each key must be a number of string; got undefined\n    at keys.forEach.key (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/webdriver.js:2072:21)\n    at Array.forEach (native)\n    at Promise.all.then.keys (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/webdriver.js:2067:16)\n    at process._tickCallback (internal/process/next_tick.js:109:7)\nFrom: Task: WebElement.sendKeys()\n    at Driver.schedule (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/webdriver.js:816:17)\n    at WebElement.schedule_ (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/webdriver.js:1921:25)\n    at WebElement.sendKeys (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/webdriver.js:2084:19)\n    at actionFn (/usr/local/lib/node_modules/protractor/lib/element.ts:94:34)\n    at Array.map (native)\n    at actionResults.getWebElements.then (/usr/local/lib/node_modules/protractor/lib/element.ts:484:67)\n    at ManagedPromise.invokeCallback_ (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:1366:14)\n    at TaskQueue.execute_ (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:2970:14)\n    at TaskQueue.executeNext_ (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:2953:27)\n    at asyncRun (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:2813:27)Error\n    at ElementArrayFinder.applyAction_ (/usr/local/lib/node_modules/protractor/lib/element.ts:482:23)\n    at ElementArrayFinder.(anonymous function).args [as sendKeys] (/usr/local/lib/node_modules/protractor/lib/element.ts:96:21)\n    at ElementFinder.(anonymous function).args [as sendKeys] (/usr/local/lib/node_modules/protractor/lib/element.ts:873:14)\n    at Acessa.digitaremail (/Users/mateusmiranda/Documents/ProjetoLojaIntegrada/features/page_objects/acessatelacadastro.po.js:19:57)\n    at World.<anonymous> (/Users/mateusmiranda/Documents/ProjetoLojaIntegrada/features/step_definitions/cadastropf.js:18:18)"
+              "status": "skipped"
             },
             "line": 16,
             "match": {
@@ -167,7 +164,7 @@
             "name": "que ainda não tenha cadastrado um e-mail válido",
             "result": {
               "status": "passed",
-              "duration": 1204990358
+              "duration": 1117351709
             },
             "line": 5,
             "match": {
@@ -180,7 +177,7 @@
             "name": "cadastro esse e-mail",
             "result": {
               "status": "passed",
-              "duration": 216436908
+              "duration": 808259243
             },
             "line": 6,
             "match": {
@@ -193,7 +190,7 @@
             "name": "visualizo a mensagem de cadastro realizado com sucesso",
             "result": {
               "status": "passed",
-              "duration": 2324708177
+              "duration": 2333498632
             },
             "line": 7,
             "match": {
@@ -216,7 +213,7 @@
             "name": "que eu ja tenha um e-mail válido cadastrado",
             "result": {
               "status": "passed",
-              "duration": 630516429
+              "duration": 592661960
             },
             "line": 10,
             "match": {
@@ -229,7 +226,7 @@
             "name": "cadastro este e-mail",
             "result": {
               "status": "passed",
-              "duration": 287785887
+              "duration": 150006646
             },
             "line": 11,
             "match": {
@@ -242,7 +239,7 @@
             "name": "visualizo a mensagem de e-mail ja cadastrado",
             "result": {
               "status": "passed",
-              "duration": 2397878884
+              "duration": 2335428539
             },
             "line": 12,
             "match": {
@@ -265,7 +262,7 @@
             "name": "que eu esteja na home da Loja Integrada",
             "result": {
               "status": "passed",
-              "duration": 701467549
+              "duration": 624912833
             },
             "line": 15,
             "match": {
@@ -278,7 +275,7 @@
             "name": "cadastro um e-mail inválido",
             "result": {
               "status": "passed",
-              "duration": 101700327
+              "duration": 88811616
             },
             "line": 16,
             "match": {
@@ -291,7 +288,7 @@
             "name": "não consigo realizar o cadastro",
             "result": {
               "status": "passed",
-              "duration": 42791639
+              "duration": 38277370
             },
             "line": 17,
             "match": {
@@ -314,7 +311,7 @@
             "name": "que eu esteja na home da Loja Integrada",
             "result": {
               "status": "passed",
-              "duration": 625767151
+              "duration": 590383641
             },
             "line": 20,
             "match": {
@@ -327,7 +324,7 @@
             "name": "não preencho o e-mail",
             "result": {
               "status": "passed",
-              "duration": 55886544
+              "duration": 50047605
             },
             "line": 21,
             "match": {
@@ -340,7 +337,7 @@
             "name": "não consigo realizar o cadastro",
             "result": {
               "status": "passed",
-              "duration": 31188164
+              "duration": 30157145
             },
             "line": 22,
             "match": {
