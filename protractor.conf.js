@@ -36,7 +36,7 @@ exports.config = {
       'features/step_definitions/*.js',
       'features/helpers/hooks.js'
     ],
-    tags: false,
+    tags: '@ok',
     format: ['json:results.json', 'pretty'],
     profile: false,
     'no-source': true

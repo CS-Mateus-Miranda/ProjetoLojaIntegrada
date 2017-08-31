@@ -4,7 +4,7 @@
       {
         "id": "cadastro-de-pessoa-física;realizar-cadastro-preenchendo-todos-os-campos",
         "keyword": "Scenario",
-        "line": 4,
+        "line": 5,
         "name": "Realizar cadastro preenchendo todos os campos",
         "steps": [
           {
@@ -12,11 +12,12 @@
             "keyword": "Dado ",
             "name": "que eu não tenha cadastrado um cliente",
             "result": {
-              "status": "pending"
+              "status": "passed",
+              "duration": 4620282047
             },
-            "line": 5,
+            "line": 6,
             "match": {
-              "location": "/Users/mateusmiranda/Documents/ProjetoLojaIntegrada/features/step_definitions/cadastropf.js:16"
+              "location": "/Users/mateusmiranda/Documents/ProjetoLojaIntegrada/features/step_definitions/cadastropf.js:12"
             }
           },
           {
@@ -24,11 +25,12 @@
             "keyword": "Quando ",
             "name": "cadastro um novo cliente",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 12053287668
             },
-            "line": 6,
+            "line": 7,
             "match": {
-              "location": "/Users/mateusmiranda/Documents/ProjetoLojaIntegrada/features/step_definitions/cadastropf.js:22"
+              "location": "/Users/mateusmiranda/Documents/ProjetoLojaIntegrada/features/step_definitions/cadastropf.js:16"
             }
           },
           {
@@ -36,21 +38,40 @@
             "keyword": "Então ",
             "name": "visualizo a mensagem de cadastro de cliente realizado com sucesso",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 109331152
             },
-            "line": 7,
+            "line": 8,
             "match": {
-              "location": "/Users/mateusmiranda/Documents/ProjetoLojaIntegrada/features/step_definitions/cadastropf.js:26"
+              "location": "/Users/mateusmiranda/Documents/ProjetoLojaIntegrada/features/step_definitions/cadastropf.js:27"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "name": "faço logoff",
+            "result": {
+              "status": "passed",
+              "duration": 1348845972
+            },
+            "line": 9,
+            "match": {
+              "location": "/Users/mateusmiranda/Documents/ProjetoLojaIntegrada/features/step_definitions/cadastropf.js:34"
             }
           }
         ],
-        "tags": [],
+        "tags": [
+          {
+            "name": "@ok",
+            "line": 4
+          }
+        ],
         "type": "scenario"
       },
       {
         "id": "cadastro-de-pessoa-física;cadastrar-e-mail-já-cadastrado",
         "keyword": "Scenario",
-        "line": 9,
+        "line": 12,
         "name": "Cadastrar e-mail já cadastrado",
         "steps": [
           {
@@ -59,11 +80,11 @@
             "name": "que eu tenha cadastrado um cliente",
             "result": {
               "status": "passed",
-              "duration": 5627663234
+              "duration": 1798213751
             },
-            "line": 10,
+            "line": 13,
             "match": {
-              "location": "/Users/mateusmiranda/Documents/ProjetoLojaIntegrada/features/step_definitions/cadastropf.js:32"
+              "location": "/Users/mateusmiranda/Documents/ProjetoLojaIntegrada/features/step_definitions/cadastropf.js:38"
             }
           },
           {
@@ -72,11 +93,11 @@
             "name": "cadastro um cliente já existente",
             "result": {
               "status": "passed",
-              "duration": 210649652
+              "duration": 1450050416
             },
-            "line": 11,
+            "line": 14,
             "match": {
-              "location": "/Users/mateusmiranda/Documents/ProjetoLojaIntegrada/features/step_definitions/cadastropf.js:36"
+              "location": "/Users/mateusmiranda/Documents/ProjetoLojaIntegrada/features/step_definitions/cadastropf.js:45"
             }
           },
           {
@@ -85,33 +106,39 @@
             "name": "visualizo a mensagem de cliente já cadastrado",
             "result": {
               "status": "passed",
-              "duration": 2058441726
+              "duration": 140299578
             },
-            "line": 12,
+            "line": 15,
             "match": {
-              "location": "/Users/mateusmiranda/Documents/ProjetoLojaIntegrada/features/step_definitions/cadastropf.js:41"
+              "location": "/Users/mateusmiranda/Documents/ProjetoLojaIntegrada/features/step_definitions/cadastropf.js:50"
             }
           }
         ],
-        "tags": [],
+        "tags": [
+          {
+            "name": "@ok",
+            "line": 11
+          }
+        ],
         "type": "scenario"
       },
       {
-        "id": "cadastro-de-pessoa-física;cadastrar-sem-preencher-os-campos-obrigatórios",
+        "id": "cadastro-de-pessoa-física;não-cadastrar-sem-preencher-os-campos-obrigatórios",
         "keyword": "Scenario",
-        "line": 14,
-        "name": "Cadastrar sem preencher os campos obrigatórios",
+        "line": 18,
+        "name": "Não cadastrar sem preencher os campos obrigatórios",
         "steps": [
           {
             "arguments": [],
             "keyword": "Dado ",
             "name": "que eu não tenha cadastrado um cliente",
             "result": {
-              "status": "pending"
+              "status": "passed",
+              "duration": 1728911728
             },
-            "line": 15,
+            "line": 19,
             "match": {
-              "location": "/Users/mateusmiranda/Documents/ProjetoLojaIntegrada/features/step_definitions/cadastropf.js:16"
+              "location": "/Users/mateusmiranda/Documents/ProjetoLojaIntegrada/features/step_definitions/cadastropf.js:12"
             }
           },
           {
@@ -119,11 +146,12 @@
             "keyword": "Quando ",
             "name": "cadastro um cliente sem preencher as informações",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 1472891251
             },
-            "line": 16,
+            "line": 20,
             "match": {
-              "location": "/Users/mateusmiranda/Documents/ProjetoLojaIntegrada/features/step_definitions/cadastropf.js:48"
+              "location": "/Users/mateusmiranda/Documents/ProjetoLojaIntegrada/features/step_definitions/cadastropf.js:57"
             }
           },
           {
@@ -131,15 +159,21 @@
             "keyword": "Então ",
             "name": "não consigo realizar o cadastro com sucesso",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 218751594
             },
-            "line": 17,
+            "line": 21,
             "match": {
-              "location": "/Users/mateusmiranda/Documents/ProjetoLojaIntegrada/features/step_definitions/cadastropf.js:53"
+              "location": "/Users/mateusmiranda/Documents/ProjetoLojaIntegrada/features/step_definitions/cadastropf.js:66"
             }
           }
         ],
-        "tags": [],
+        "tags": [
+          {
+            "name": "@ok",
+            "line": 17
+          }
+        ],
         "type": "scenario"
       }
     ],
@@ -155,7 +189,7 @@
       {
         "id": "cadastro-de-newsletter;cadastrar-e-mail-válido-na-newsletter",
         "keyword": "Scenario",
-        "line": 4,
+        "line": 5,
         "name": "Cadastrar e-mail válido na Newsletter",
         "steps": [
           {
@@ -164,9 +198,9 @@
             "name": "que ainda não tenha cadastrado um e-mail válido",
             "result": {
               "status": "passed",
-              "duration": 1117351709
+              "duration": 1440655282
             },
-            "line": 5,
+            "line": 6,
             "match": {
               "location": "/Users/mateusmiranda/Documents/ProjetoLojaIntegrada/features/step_definitions/newsletter.js:13"
             }
@@ -177,9 +211,9 @@
             "name": "cadastro esse e-mail",
             "result": {
               "status": "passed",
-              "duration": 808259243
+              "duration": 185723564
             },
-            "line": 6,
+            "line": 7,
             "match": {
               "location": "/Users/mateusmiranda/Documents/ProjetoLojaIntegrada/features/step_definitions/newsletter.js:17"
             }
@@ -190,21 +224,26 @@
             "name": "visualizo a mensagem de cadastro realizado com sucesso",
             "result": {
               "status": "passed",
-              "duration": 2333498632
+              "duration": 2490371028
             },
-            "line": 7,
+            "line": 8,
             "match": {
               "location": "/Users/mateusmiranda/Documents/ProjetoLojaIntegrada/features/step_definitions/newsletter.js:23"
             }
           }
         ],
-        "tags": [],
+        "tags": [
+          {
+            "name": "@ok",
+            "line": 4
+          }
+        ],
         "type": "scenario"
       },
       {
         "id": "cadastro-de-newsletter;preencher-campo-com-e-mail-com-e-mail-ja-cadastrado",
         "keyword": "Scenario",
-        "line": 9,
+        "line": 11,
         "name": "Preencher campo com e-mail com e-mail ja cadastrado",
         "steps": [
           {
@@ -213,9 +252,9 @@
             "name": "que eu ja tenha um e-mail válido cadastrado",
             "result": {
               "status": "passed",
-              "duration": 592661960
+              "duration": 788354698
             },
-            "line": 10,
+            "line": 12,
             "match": {
               "location": "/Users/mateusmiranda/Documents/ProjetoLojaIntegrada/features/step_definitions/newsletter.js:32"
             }
@@ -226,9 +265,9 @@
             "name": "cadastro este e-mail",
             "result": {
               "status": "passed",
-              "duration": 150006646
+              "duration": 152760430
             },
-            "line": 11,
+            "line": 13,
             "match": {
               "location": "/Users/mateusmiranda/Documents/ProjetoLojaIntegrada/features/step_definitions/newsletter.js:37"
             }
@@ -239,21 +278,26 @@
             "name": "visualizo a mensagem de e-mail ja cadastrado",
             "result": {
               "status": "passed",
-              "duration": 2335428539
+              "duration": 2417349357
             },
-            "line": 12,
+            "line": 14,
             "match": {
               "location": "/Users/mateusmiranda/Documents/ProjetoLojaIntegrada/features/step_definitions/newsletter.js:44"
             }
           }
         ],
-        "tags": [],
+        "tags": [
+          {
+            "name": "@ok",
+            "line": 10
+          }
+        ],
         "type": "scenario"
       },
       {
         "id": "cadastro-de-newsletter;cadastrar-e-mail-no-formato-inválido",
         "keyword": "Scenario",
-        "line": 14,
+        "line": 17,
         "name": "Cadastrar e-mail no formato inválido",
         "steps": [
           {
@@ -262,9 +306,9 @@
             "name": "que eu esteja na home da Loja Integrada",
             "result": {
               "status": "passed",
-              "duration": 624912833
+              "duration": 824100716
             },
-            "line": 15,
+            "line": 18,
             "match": {
               "location": "/Users/mateusmiranda/Documents/ProjetoLojaIntegrada/features/step_definitions/newsletter.js:53"
             }
@@ -275,9 +319,9 @@
             "name": "cadastro um e-mail inválido",
             "result": {
               "status": "passed",
-              "duration": 88811616
+              "duration": 96033369
             },
-            "line": 16,
+            "line": 19,
             "match": {
               "location": "/Users/mateusmiranda/Documents/ProjetoLojaIntegrada/features/step_definitions/newsletter.js:59"
             }
@@ -288,21 +332,26 @@
             "name": "não consigo realizar o cadastro",
             "result": {
               "status": "passed",
-              "duration": 38277370
+              "duration": 64999545
             },
-            "line": 17,
+            "line": 20,
             "match": {
               "location": "/Users/mateusmiranda/Documents/ProjetoLojaIntegrada/features/step_definitions/newsletter.js:66"
             }
           }
         ],
-        "tags": [],
+        "tags": [
+          {
+            "name": "@ok",
+            "line": 16
+          }
+        ],
         "type": "scenario"
       },
       {
         "id": "cadastro-de-newsletter;cadastrar-na-newsletter-sem-preencher-o-e-mail",
         "keyword": "Scenario",
-        "line": 19,
+        "line": 23,
         "name": "Cadastrar na Newsletter sem preencher o e-mail",
         "steps": [
           {
@@ -311,9 +360,9 @@
             "name": "que eu esteja na home da Loja Integrada",
             "result": {
               "status": "passed",
-              "duration": 590383641
+              "duration": 764198969
             },
-            "line": 20,
+            "line": 24,
             "match": {
               "location": "/Users/mateusmiranda/Documents/ProjetoLojaIntegrada/features/step_definitions/newsletter.js:53"
             }
@@ -324,9 +373,9 @@
             "name": "não preencho o e-mail",
             "result": {
               "status": "passed",
-              "duration": 50047605
+              "duration": 61620160
             },
-            "line": 21,
+            "line": 25,
             "match": {
               "location": "/Users/mateusmiranda/Documents/ProjetoLojaIntegrada/features/step_definitions/newsletter.js:73"
             }
@@ -337,15 +386,20 @@
             "name": "não consigo realizar o cadastro",
             "result": {
               "status": "passed",
-              "duration": 30157145
+              "duration": 31888818
             },
-            "line": 22,
+            "line": 26,
             "match": {
               "location": "/Users/mateusmiranda/Documents/ProjetoLojaIntegrada/features/step_definitions/newsletter.js:66"
             }
           }
         ],
-        "tags": [],
+        "tags": [
+          {
+            "name": "@ok",
+            "line": 22
+          }
+        ],
         "type": "scenario"
       }
     ],

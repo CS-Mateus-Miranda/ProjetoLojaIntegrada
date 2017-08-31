@@ -13,38 +13,40 @@ module.exports = function() {
          inicial.visitar().then(callback);
        });
 
-       this.When(/^cadastro um novo cliente$/, {timeout: 20 * 1000}, function (callback) {
-         inicial.DigitarEmailPrimeiraTela();
-         //const page = inicial.ClicarNoBotaoPrimeiratela();
-         inicial.ClicarNoBotaoPrimeiratela();
+//2) Scenario: Realizar cadastro preenchendo todos os campos - features/cadastropf.feature:4
+  // Step: Quando cadastro um novo cliente - features/cadastropf.feature:6
+//Message:
+    // Undefined. Implement with the following snippet:
+
+       this.When(/^cadastro um novo cliente$/, {timeout: 10 * 1000}, function (callback) {
+         inicial.DigitarEmailPrimeiraTela().then(callback);
+         inicial.ClicarNoBotaoPrimeiratela().then(callback);
+         //var teste = 'teste';
+         //console.log(teste);
          var elm = element(by.id('id_tipo_0'));
          var EC = protractor.ExpectedConditions;
          browser.wait(EC.elementToBeClickable(elm), 10000);
-         inicial.CadastrarClienteValido();
-         inicial.ClicarBotaoCadastrarFormCadastro().then(callback);
+         inicial.CadastrarClienteValido().then(callback);
+         //browser.driver.sleep(2000);
        });
 
-       this.Then(/^visualizo a mensagem de cadastro de cliente realizado com sucesso$/, function(callback) {
-        var elm = element(by.css('.close'));
-        var EC = protractor.ExpectedConditions;
-        browser.wait(EC.elementToBeClickable(elm), 10000);
-        expect(element(by.css('.close')).isDisplayed()).to.eventually.be.true.and.notify(callback);
-        });
+  //3) Scenario: Realizar cadastro preenchendo todos os campos - features/cadastropf.feature:4
+  //Step: Então visualizo a mensagem de cadastro de cliente realizado com sucesso - features/cadastropf.feature:7
+  // Message:
+  //   Undefined. Implement with the following snippet:
 
-        this.Then(/^faço logoff$/, function (callback) {
-          inicial.Logoff().then(callback);
+       this.Then(/^visualizo a mensagem de cadastro de cliente realizado com sucesso$/, function(callback) {
+          // Write code here that turns the phrase above into concrete actions
+          callback(null, 'pending');
         });
 
        this.Given(/^que eu tenha cadastrado um cliente$/, function (callback) {
-        var elm = element(by.css('.bem-vindo'));
-        var EC = protractor.ExpectedConditions;
-        browser.wait(EC.elementToBeClickable(elm), 10000); 
-        inicial.visitar().then(callback);
+         inicial.visitar().then(callback);
        });
 
        this.When(/^cadastro um cliente já existente$/, {timeout: 10 * 1000} ,function (callback) {
-         inicial.EmailJaCadastrado();
-         inicial.ClicarNoBotaoPrimeiratela().then(callback);
+         inicial.EmailJaCadastrado().then(callback);
+         inicial.ClicarNoBotaoPrimeiratela().then(callback)
        });
 
        this.Then(/^visualizo a mensagem de cliente já cadastrado$/, function (callback) {
@@ -55,8 +57,8 @@ module.exports = function() {
        });
 
        this.When(/^cadastro um cliente sem preencher as informações$/, function (callback) {
-         inicial.DigitarEmailPrimeiraTela();
-         inicial.ClicarNoBotaoPrimeiratela();
+         inicial.DigitarEmailPrimeiraTela().then(callback);
+         inicial.ClicarNoBotaoPrimeiratela().then(callback);
          var elm = element(by.id('id_tipo_0'));
          var EC = protractor.ExpectedConditions;
          browser.wait(EC.elementToBeClickable(elm), 10000);

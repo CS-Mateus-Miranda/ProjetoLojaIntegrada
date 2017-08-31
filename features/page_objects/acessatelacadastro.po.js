@@ -2,61 +2,94 @@
 var Helper = require('../page_objects/Helper.js');
 class Acessa{
 
+    constructor(){
+        this.emailprincipal = null;
+    }
+
+    showLoginFields () {
+        this.inputSearchIdPerson = element(by.css('#id_cpf'))
+        let action = browser.actions().mouseMove(this.inputSearchIdPerson).click()
+        let keys = '12677253623'
+     
+     
+        for (var i = 0; i < keys.length; i++) {
+          action = action.sendKeys(keys[i])
+          browser.sleep(100)
+        }
+     
+        return action.perform()
+      }
+
     visitar(){
         browser.get('https://tghcastro.lojaintegrada.com.br');
         return element(by.css('.bem-vindo')).click();
     }
 
-    newemail(){
+    DigitarEmailPrimeiraTela(){
+        this.email = element(by.css('#id_email.span8'));
         var faker = require('faker.js-master');
         var randomEmail = faker.internet.email();
-        return randonEmail;
+        const email = randomEmail;
+        this.emailprincipal = randomEmail;
+        return this.email.sendKeys(randomEmail);
     }
 
-    digitaremail(){
-        var faker = require('faker.js-master');
-        var randomEmail = faker.internet.email();
-        this.email = element(by.css('#id_email.span8')).sendKeys(this.randomEmail);
-        return this.botaoconfirmar = element(by.css('#id_email+ .principal')).click();
+    ClicarNoBotaoPrimeiratela(){
+         return this.botaoprimeiratela = element(by.css('#id_email+ .principal')).click();
+         //return new Inicial();
     }
 
-    emailjacadastrado(){
-        return this.email = element(by.css('#id_email.span8')).sendKeys('mateus.miranda@concrete.com.br');   
-    }
 
-    clicarbotaocadastrar(){
-        return this.botaoconfirmar = element(by.css('#id_email+ .principal')).click();
+    Logoff()
+    {
+        this.drop = element(by.css('.dropdown-toggle')).click();
+        return this.logoff = element(by.linkText('Sair')).click();
     }
+    
 
-    cadastrocompleto(){
-        const helper = new Helper();
-        return helper.slowType(element(by.id('id_confirmacao_email')), 'm@m');
-        //this.inputconfirmemail = element(by.id('id_confirmacao_email')).sendKeys('miranda@miranda2.com');
-        //this.inputsenha = element(by.id('id_senha')).sendKeys('senhaforte');
-        //this.inputconfirmsenha = element(by.id('id_confirmacao_senha')).sendKeys('senhaforte');
-        //this.inputnome = element(by.id('id_nome')).sendKeys('Mateus Miranda');
-        //this.inputcpf = element(by.id('id_cpf')).sendKeys('12677253623');
-        //this.inputcelular = element(by.id('id_telefone_celular')).sendKeys('31984523244');
-        //this.inputtelefone = element(by.id('id_telefone_principal')).sendKeys('3123232323');
-        //this.dropsexo = element(by.id('id_sexo')).$('[value="m"]').click();
-        //this.inputdtnasc = element(by.id('id_data_nascimento')).sendKeys('16061996');
-        //this.inputcep = element(by.id('id_cep')).sendKeys('30642050');
-        //browser.driver.sleep(5000);
-        //this.inputnumero = element(by.id('id_numero')).sendKeys('111');
-        //this.inputcomplemento = element(by.id('id_complemento')).sendKeys('Complemento');
-        //this.inputreferencia = element(by.id('id_referencia')).sendKeys('Referencia');
-        //return this.referencia = element(by.id('id_referencia')).sendkeys('Referencia');    
-    }
-
-    clickCadastro(){
-        var elm = element(by.id('id_tipo_0'));
+    CadastrarClienteValido()
+    {
+        var elm = element(by.id('id_nome'));
         var EC = protractor.ExpectedConditions;
         browser.wait(EC.elementToBeClickable(elm), 10000);
-        return this.botao = element(by.css('.acao-editar  .principal')).click();
+        browser.driver.sleep(3000);
+        this.confemail = element(by.id('id_confirmacao_email')).sendKeys(this.emailprincipal.toLowerCase());
+        
+        //this.confemail = element(by.id('id_confirmacao_email')).sendKeys('teste@teste.com');
+        this.senha = element(by.css('#id_senha')).sendKeys('senhaforte');
+        this.confsenha = element(by.css('#id_confirmacao_senha')).sendKeys('senhaforte');
+        this.nome = element(by.css('#id_nome')).sendKeys('Mateus Miranda');
+        this.cpf = element(by.css('#id_cpf')).sendKeys('8');
+        this.cpf = element(by.css('#id_cpf')).sendKeys('7');
+        this.cpf = element(by.css('#id_cpf')).sendKeys('1');
+        this.cpf = element(by.css('#id_cpf')).sendKeys('2');
+        this.cpf = element(by.css('#id_cpf')).sendKeys('7');
+        this.cpf = element(by.css('#id_cpf')).sendKeys('5');
+        this.cpf = element(by.css('#id_cpf')).sendKeys('6');
+        this.cpf = element(by.css('#id_cpf')).sendKeys('0');
+        this.cpf = element(by.css('#id_cpf')).sendKeys('6');
+        this.cpf = element(by.css('#id_cpf')).sendKeys('7');
+        this.cpf = element(by.css('#id_cpf')).sendKeys('6');
+        //showLoginFields();
+        this.celular = element(by.css('#id_telefone_celular')).sendKeys('(92) 98333-4542');
+        this.cep = element(by.css('#id_cep')).sendKeys('3');
+        this.cep = element(by.css('#id_cep')).sendKeys('0');
+        this.cep = element(by.css('#id_cep')).sendKeys('6');
+        this.cep = element(by.css('#id_cep')).sendKeys('4');
+        this.cep = element(by.css('#id_cep')).sendKeys('2');
+        this.cep = element(by.css('#id_cep')).sendKeys('0');
+        this.cep = element(by.css('#id_cep')).sendKeys('5');
+        this.cep = element(by.css('#id_cep')).sendKeys('0');
+        browser.driver.sleep(3000);
+        return this.numero = element(by.css('#id_numero')).sendKeys('10');
     }
 
-    sempreenchimento(){
-        return browser.driver.sleep(2000);
+    EmailJaCadastrado(){
+        return this.email = element(by.css('#id_email.span8')).sendKeys('mateus.miranda@concrete.com.br'); 
+    }
+
+    ClicarBotaoCadastrarFormCadastro(){
+        return this.botao = element(by.xpath('//button[.="Criar Conta"]')).click();
     }
 }
 
