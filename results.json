@@ -13,7 +13,7 @@
             "name": "que eu não tenha cadastrado um cliente",
             "result": {
               "status": "passed",
-              "duration": 5088652378
+              "duration": 4486143672
             },
             "line": 6,
             "match": {
@@ -26,7 +26,7 @@
             "name": "cadastro um novo cliente",
             "result": {
               "status": "passed",
-              "duration": 10925902052
+              "duration": 12722798503
             },
             "line": 7,
             "match": {
@@ -39,7 +39,7 @@
             "name": "visualizo a mensagem de cadastro de cliente realizado com sucesso",
             "result": {
               "status": "passed",
-              "duration": 101350942
+              "duration": 156879932
             },
             "line": 8,
             "match": {
@@ -52,7 +52,7 @@
             "name": "faço logoff",
             "result": {
               "status": "passed",
-              "duration": 1444023880
+              "duration": 296929844
             },
             "line": 9,
             "match": {
@@ -80,7 +80,7 @@
             "name": "que eu tenha cadastrado um cliente",
             "result": {
               "status": "passed",
-              "duration": 2123487807
+              "duration": 2756477553
             },
             "line": 13,
             "match": {
@@ -93,7 +93,7 @@
             "name": "cadastro um cliente já existente",
             "result": {
               "status": "passed",
-              "duration": 1841353225
+              "duration": 1421229800
             },
             "line": 14,
             "match": {
@@ -106,7 +106,7 @@
             "name": "visualizo a mensagem de cliente já cadastrado",
             "result": {
               "status": "passed",
-              "duration": 124085767
+              "duration": 161221489
             },
             "line": 15,
             "match": {
@@ -134,7 +134,7 @@
             "name": "que eu não tenha cadastrado um cliente",
             "result": {
               "status": "passed",
-              "duration": 1722848508
+              "duration": 2150160189
             },
             "line": 19,
             "match": {
@@ -147,7 +147,7 @@
             "name": "cadastro um cliente sem preencher as informações",
             "result": {
               "status": "passed",
-              "duration": 1287465358
+              "duration": 1892024717
             },
             "line": 20,
             "match": {
@@ -160,7 +160,7 @@
             "name": "não consigo realizar o cadastro com sucesso",
             "result": {
               "status": "passed",
-              "duration": 209546970
+              "duration": 281481947
             },
             "line": 21,
             "match": {
@@ -198,7 +198,7 @@
             "name": "que ainda não tenha cadastrado um e-mail válido",
             "result": {
               "status": "passed",
-              "duration": 1491880878
+              "duration": 1708323029
             },
             "line": 6,
             "match": {
@@ -211,7 +211,7 @@
             "name": "cadastro esse e-mail",
             "result": {
               "status": "passed",
-              "duration": 155258428
+              "duration": 297370191
             },
             "line": 7,
             "match": {
@@ -224,7 +224,7 @@
             "name": "visualizo a mensagem de cadastro realizado com sucesso",
             "result": {
               "status": "passed",
-              "duration": 2406502990
+              "duration": 2722687772
             },
             "line": 8,
             "match": {
@@ -252,7 +252,7 @@
             "name": "que eu ja tenha um e-mail válido cadastrado",
             "result": {
               "status": "passed",
-              "duration": 891570154
+              "duration": 854192197
             },
             "line": 12,
             "match": {
@@ -265,7 +265,7 @@
             "name": "cadastro este e-mail",
             "result": {
               "status": "passed",
-              "duration": 153462645
+              "duration": 342126744
             },
             "line": 13,
             "match": {
@@ -278,7 +278,7 @@
             "name": "visualizo a mensagem de e-mail ja cadastrado",
             "result": {
               "status": "passed",
-              "duration": 2447392454
+              "duration": 2538321131
             },
             "line": 14,
             "match": {
@@ -306,7 +306,7 @@
             "name": "que eu esteja na home da Loja Integrada",
             "result": {
               "status": "passed",
-              "duration": 970259710
+              "duration": 872205611
             },
             "line": 18,
             "match": {
@@ -319,7 +319,7 @@
             "name": "cadastro um e-mail inválido",
             "result": {
               "status": "passed",
-              "duration": 99940432
+              "duration": 177612738
             },
             "line": 19,
             "match": {
@@ -332,7 +332,7 @@
             "name": "não consigo realizar o cadastro",
             "result": {
               "status": "passed",
-              "duration": 38296386
+              "duration": 109458325
             },
             "line": 20,
             "match": {
@@ -360,7 +360,7 @@
             "name": "que eu esteja na home da Loja Integrada",
             "result": {
               "status": "passed",
-              "duration": 929581582
+              "duration": 859700461
             },
             "line": 24,
             "match": {
@@ -373,7 +373,7 @@
             "name": "não preencho o e-mail",
             "result": {
               "status": "passed",
-              "duration": 54942125
+              "duration": 82341515
             },
             "line": 25,
             "match": {
@@ -386,7 +386,7 @@
             "name": "não consigo realizar o cadastro",
             "result": {
               "status": "passed",
-              "duration": 37237186
+              "duration": 79537110
             },
             "line": 26,
             "match": {
