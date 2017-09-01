@@ -13,7 +13,7 @@
             "name": "que eu não tenha cadastrado um cliente",
             "result": {
               "status": "passed",
-              "duration": 4620282047
+              "duration": 5088652378
             },
             "line": 6,
             "match": {
@@ -26,7 +26,7 @@
             "name": "cadastro um novo cliente",
             "result": {
               "status": "passed",
-              "duration": 12053287668
+              "duration": 10925902052
             },
             "line": 7,
             "match": {
@@ -39,11 +39,11 @@
             "name": "visualizo a mensagem de cadastro de cliente realizado com sucesso",
             "result": {
               "status": "passed",
-              "duration": 109331152
+              "duration": 101350942
             },
             "line": 8,
             "match": {
-              "location": "/Users/mateusmiranda/Documents/ProjetoLojaIntegrada/features/step_definitions/cadastropf.js:27"
+              "location": "/Users/mateusmiranda/Documents/ProjetoLojaIntegrada/features/step_definitions/cadastropf.js:26"
             }
           },
           {
@@ -52,11 +52,11 @@
             "name": "faço logoff",
             "result": {
               "status": "passed",
-              "duration": 1348845972
+              "duration": 1444023880
             },
             "line": 9,
             "match": {
-              "location": "/Users/mateusmiranda/Documents/ProjetoLojaIntegrada/features/step_definitions/cadastropf.js:34"
+              "location": "/Users/mateusmiranda/Documents/ProjetoLojaIntegrada/features/step_definitions/cadastropf.js:33"
             }
           }
         ],
@@ -80,11 +80,11 @@
             "name": "que eu tenha cadastrado um cliente",
             "result": {
               "status": "passed",
-              "duration": 1798213751
+              "duration": 2123487807
             },
             "line": 13,
             "match": {
-              "location": "/Users/mateusmiranda/Documents/ProjetoLojaIntegrada/features/step_definitions/cadastropf.js:38"
+              "location": "/Users/mateusmiranda/Documents/ProjetoLojaIntegrada/features/step_definitions/cadastropf.js:37"
             }
           },
           {
@@ -93,11 +93,11 @@
             "name": "cadastro um cliente já existente",
             "result": {
               "status": "passed",
-              "duration": 1450050416
+              "duration": 1841353225
             },
             "line": 14,
             "match": {
-              "location": "/Users/mateusmiranda/Documents/ProjetoLojaIntegrada/features/step_definitions/cadastropf.js:45"
+              "location": "/Users/mateusmiranda/Documents/ProjetoLojaIntegrada/features/step_definitions/cadastropf.js:44"
             }
           },
           {
@@ -106,11 +106,11 @@
             "name": "visualizo a mensagem de cliente já cadastrado",
             "result": {
               "status": "passed",
-              "duration": 140299578
+              "duration": 124085767
             },
             "line": 15,
             "match": {
-              "location": "/Users/mateusmiranda/Documents/ProjetoLojaIntegrada/features/step_definitions/cadastropf.js:50"
+              "location": "/Users/mateusmiranda/Documents/ProjetoLojaIntegrada/features/step_definitions/cadastropf.js:49"
             }
           }
         ],
@@ -134,7 +134,7 @@
             "name": "que eu não tenha cadastrado um cliente",
             "result": {
               "status": "passed",
-              "duration": 1728911728
+              "duration": 1722848508
             },
             "line": 19,
             "match": {
@@ -147,11 +147,11 @@
             "name": "cadastro um cliente sem preencher as informações",
             "result": {
               "status": "passed",
-              "duration": 1472891251
+              "duration": 1287465358
             },
             "line": 20,
             "match": {
-              "location": "/Users/mateusmiranda/Documents/ProjetoLojaIntegrada/features/step_definitions/cadastropf.js:57"
+              "location": "/Users/mateusmiranda/Documents/ProjetoLojaIntegrada/features/step_definitions/cadastropf.js:56"
             }
           },
           {
@@ -160,11 +160,11 @@
             "name": "não consigo realizar o cadastro com sucesso",
             "result": {
               "status": "passed",
-              "duration": 218751594
+              "duration": 209546970
             },
             "line": 21,
             "match": {
-              "location": "/Users/mateusmiranda/Documents/ProjetoLojaIntegrada/features/step_definitions/cadastropf.js:66"
+              "location": "/Users/mateusmiranda/Documents/ProjetoLojaIntegrada/features/step_definitions/cadastropf.js:65"
             }
           }
         ],
@@ -198,11 +198,11 @@
             "name": "que ainda não tenha cadastrado um e-mail válido",
             "result": {
               "status": "passed",
-              "duration": 1440655282
+              "duration": 1491880878
             },
             "line": 6,
             "match": {
-              "location": "/Users/mateusmiranda/Documents/ProjetoLojaIntegrada/features/step_definitions/newsletter.js:13"
+              "location": "/Users/mateusmiranda/Documents/ProjetoLojaIntegrada/features/step_definitions/newsletter.js:12"
             }
           },
           {
@@ -211,11 +211,11 @@
             "name": "cadastro esse e-mail",
             "result": {
               "status": "passed",
-              "duration": 185723564
+              "duration": 155258428
             },
             "line": 7,
             "match": {
-              "location": "/Users/mateusmiranda/Documents/ProjetoLojaIntegrada/features/step_definitions/newsletter.js:17"
+              "location": "/Users/mateusmiranda/Documents/ProjetoLojaIntegrada/features/step_definitions/newsletter.js:16"
             }
           },
           {
@@ -224,11 +224,11 @@
             "name": "visualizo a mensagem de cadastro realizado com sucesso",
             "result": {
               "status": "passed",
-              "duration": 2490371028
+              "duration": 2406502990
             },
             "line": 8,
             "match": {
-              "location": "/Users/mateusmiranda/Documents/ProjetoLojaIntegrada/features/step_definitions/newsletter.js:23"
+              "location": "/Users/mateusmiranda/Documents/ProjetoLojaIntegrada/features/step_definitions/newsletter.js:22"
             }
           }
         ],
@@ -252,11 +252,11 @@
             "name": "que eu ja tenha um e-mail válido cadastrado",
             "result": {
               "status": "passed",
-              "duration": 788354698
+              "duration": 891570154
             },
             "line": 12,
             "match": {
-              "location": "/Users/mateusmiranda/Documents/ProjetoLojaIntegrada/features/step_definitions/newsletter.js:32"
+              "location": "/Users/mateusmiranda/Documents/ProjetoLojaIntegrada/features/step_definitions/newsletter.js:29"
             }
           },
           {
@@ -265,11 +265,11 @@
             "name": "cadastro este e-mail",
             "result": {
               "status": "passed",
-              "duration": 152760430
+              "duration": 153462645
             },
             "line": 13,
             "match": {
-              "location": "/Users/mateusmiranda/Documents/ProjetoLojaIntegrada/features/step_definitions/newsletter.js:37"
+              "location": "/Users/mateusmiranda/Documents/ProjetoLojaIntegrada/features/step_definitions/newsletter.js:33"
             }
           },
           {
@@ -278,11 +278,11 @@
             "name": "visualizo a mensagem de e-mail ja cadastrado",
             "result": {
               "status": "passed",
-              "duration": 2417349357
+              "duration": 2447392454
             },
             "line": 14,
             "match": {
-              "location": "/Users/mateusmiranda/Documents/ProjetoLojaIntegrada/features/step_definitions/newsletter.js:44"
+              "location": "/Users/mateusmiranda/Documents/ProjetoLojaIntegrada/features/step_definitions/newsletter.js:39"
             }
           }
         ],
@@ -306,11 +306,11 @@
             "name": "que eu esteja na home da Loja Integrada",
             "result": {
               "status": "passed",
-              "duration": 824100716
+              "duration": 970259710
             },
             "line": 18,
             "match": {
-              "location": "/Users/mateusmiranda/Documents/ProjetoLojaIntegrada/features/step_definitions/newsletter.js:53"
+              "location": "/Users/mateusmiranda/Documents/ProjetoLojaIntegrada/features/step_definitions/newsletter.js:46"
             }
           },
           {
@@ -319,11 +319,11 @@
             "name": "cadastro um e-mail inválido",
             "result": {
               "status": "passed",
-              "duration": 96033369
+              "duration": 99940432
             },
             "line": 19,
             "match": {
-              "location": "/Users/mateusmiranda/Documents/ProjetoLojaIntegrada/features/step_definitions/newsletter.js:59"
+              "location": "/Users/mateusmiranda/Documents/ProjetoLojaIntegrada/features/step_definitions/newsletter.js:50"
             }
           },
           {
@@ -332,11 +332,11 @@
             "name": "não consigo realizar o cadastro",
             "result": {
               "status": "passed",
-              "duration": 64999545
+              "duration": 38296386
             },
             "line": 20,
             "match": {
-              "location": "/Users/mateusmiranda/Documents/ProjetoLojaIntegrada/features/step_definitions/newsletter.js:66"
+              "location": "/Users/mateusmiranda/Documents/ProjetoLojaIntegrada/features/step_definitions/newsletter.js:56"
             }
           }
         ],
@@ -360,11 +360,11 @@
             "name": "que eu esteja na home da Loja Integrada",
             "result": {
               "status": "passed",
-              "duration": 764198969
+              "duration": 929581582
             },
             "line": 24,
             "match": {
-              "location": "/Users/mateusmiranda/Documents/ProjetoLojaIntegrada/features/step_definitions/newsletter.js:53"
+              "location": "/Users/mateusmiranda/Documents/ProjetoLojaIntegrada/features/step_definitions/newsletter.js:46"
             }
           },
           {
@@ -373,11 +373,11 @@
             "name": "não preencho o e-mail",
             "result": {
               "status": "passed",
-              "duration": 61620160
+              "duration": 54942125
             },
             "line": 25,
             "match": {
-              "location": "/Users/mateusmiranda/Documents/ProjetoLojaIntegrada/features/step_definitions/newsletter.js:73"
+              "location": "/Users/mateusmiranda/Documents/ProjetoLojaIntegrada/features/step_definitions/newsletter.js:60"
             }
           },
           {
@@ -386,11 +386,11 @@
             "name": "não consigo realizar o cadastro",
             "result": {
               "status": "passed",
-              "duration": 31888818
+              "duration": 37237186
             },
             "line": 26,
             "match": {
-              "location": "/Users/mateusmiranda/Documents/ProjetoLojaIntegrada/features/step_definitions/newsletter.js:66"
+              "location": "/Users/mateusmiranda/Documents/ProjetoLojaIntegrada/features/step_definitions/newsletter.js:56"
             }
           }
         ],

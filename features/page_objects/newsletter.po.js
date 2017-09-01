@@ -1,23 +1,23 @@
 'use strict';
+const faker = require('faker.js-master');
 class Newsletter{
 
     visit(){
         return browser.get('http://tghcastro.lojaintegrada.com.br/');
     }
     
-    preencheremail(email){
+    writeemail(email){
         this.inputemail = element(by.name('email'));
         return this.inputemail.sendKeys(email);
     }
 
     newemail(){
-        var faker = require('faker.js-master');
-        var randomEmail = faker.internet.email();
+        let randomEmail = faker.internet.email();
         this.inputemail = element(by.name('email'));
         return this.inputemail.sendKeys(randomEmail);
     }
 
-    clicarnobotaonewsletter(){
+    clickbuttonnewsletter(){
         this.btnEnviar = element(by.css('.newsletter-assinar'));
         return this.btnEnviar.click();
     }
