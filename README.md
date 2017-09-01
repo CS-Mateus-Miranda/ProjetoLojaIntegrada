@@ -1,5 +1,20 @@
-# ProjetoLojaIntegrada
+# Projeto de Exemplo testando a [Loja Integrada](http://tghcastro.lojaintegrada.com.br/) usando Protractor + Cucumber.js
+___
 
-Para executar:
--- npm install
--- protractor protractor.conf.js
+Atualizar o webdriver:
+
+```
+webdriver-manager update
+```
+
+Instalar as dependências:
+
+```
+npm install
+```
+
+Para rodar os testes:
+
+```
+npm test
+```
